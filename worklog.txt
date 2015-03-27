@@ -1,6 +1,7 @@
 Todays work.
 
-paid - 
+paid - 10 hours next week, starting monday. 
+First 2 hours - Create Contact us page from Right Sidebar page. Keep right sidebar, do not make changes to it. In the main content create contact us page.  
 
 unpaid - learn how to work with github.
 
