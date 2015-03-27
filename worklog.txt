@@ -5,6 +5,8 @@ First 2 hours - Create Contact us page from Right Sidebar page. Keep right sideb
 http://www.searchenginejournal.com/25-amazing-contact-us-pages/93511/ shows some great contact us pages. Please look at them and design out a good design.
 I like this one the best. http://www.fhoke.com/contact/
 Please make the contact us page similar, not exactly like that.
+I do not want phone number or map parts at all. 
+Leave my header, right sidebar and footer. 
 
 unpaid - learn how to work with github.
 
