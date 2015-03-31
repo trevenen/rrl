@@ -1,6 +1,34 @@
 Todays work.
 
-Paid Work - will be 10 hours per week, starting monday. 
+
+
+
+
+
+Tuesday March 31st.
+1. Make sure yesterdays changes, edits, are commited to github. Do this first!
+2. Edit template.html page to match the  index.html page. Places that will need changed.
+2a. Head
+2b. Body - nav, banner, Main but not including the carousel.
+3c. Footer  
+3. Commit to the github. 
+4. Edit shop.html
+4a change the about us to a shopping cart page make sure it stays in the bootstrap theme
+ There are the other cart main pages I like. 
+ https://www.mountainroseherbs.com/specials
+ http://www.mojo-themes.com/item/spice-shoppe-bootstrap-shopping-cart/demo/
+ http://www.starwest-botanicals.com/category/bulk-herbs/
+5 Create a product-template page. 
+5a It should look like the other pages however it should have  this look
+https://www.mountainroseherbs.com/products/olive-oil-organic-extra-virgin/profile
+The image should be on the left, the price with a drop down and a quantaty and the add to cart.
+It should include the information section but do not bring over the facebook pinit or tweet badges. 
+
+
+
+Older work.
+
+Mon March 30th
 First 2 hours - Create Contact us page from Right Sidebar page. Keep right sidebar, do not make changes to it. In the main content create contact us page.  
 http://www.searchenginejournal.com/25-amazing-contact-us-pages/93511/ shows some great contact us pages. Please look at them and design out a good design.
 I like this one the best. http://www.fhoke.com/contact/
@@ -8,8 +36,9 @@ Please make the contact us page similar, not exactly like that.
 I do not want phone number or map parts at all. 
 Leave my header, right sidebar and footer. 
 
+Commit file to github, edit this page and let me you know  what you did
+
 unpaid - learn how to work with github.
 
 
-Older work.
-Upload site. 5 minutes. Thursday 27th March 2015.
+
