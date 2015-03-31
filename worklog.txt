@@ -1,10 +1,26 @@
 Todays work.
 
 Wednesday April 1st. 
-Make sure everything is updated on the github account. 
+Learn how to correctly work github. 
+Daily you should do this before you start work.
+In the directory you are workin in you should checkout the files. 
+(I use linux. I can tell you use windows so you need to find out what works for you.) Look here. http://www.proace.com/2010/09/24/everyday-git-workflow/ or here for more info https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
+In command line
+git checkout -b working01
+git 
 
-
-
+Move any tasks that were not finished yesterday to the first section. 
+First Section
+1
+2
+Second Section
+1
+2
+3
+Third Section
+1
+2
+3
 
 Tuesday March 31st.
 1. Make sure yesterdays changes, edits, are commited to github. Do this first!
