@@ -1,21 +1,20 @@
-
 Todays work.
 
+April 3 Tasks
 
 
 
 
-
-
-April 2
+April 2 Tasks
 Finish old tasks. 
 1 Create a product-template page. 
-1a It should look like the other pages however it should have this look
+1a It should look like the other pages however it should have this look. 
 https://www.mountainroseherbs.com/products/olive-oil-organic-extra-virgin/profile
 The image should be on the left, the price with a drop down and a quantity and the add to cart.
 It should include the information section but do not bring over the facebook pinit or tweet badges. 
 2. Fix the top nav portion of on all pages so they work correctly.
-3. Zip up your current site, email it to me. 
+3. Zip up your current site, email it to me. Also try to get it updated in
+github. If you can't let me know what error you are seeing. 
 4. Start putting hours by the tasks you do in this document for example  task 1  Create a product-template page 40 minutes.
 5. Enjoy your good hard work and know you are doing well. Prepare for April 3rds work by learning more about github comands.
 
@@ -36,17 +35,8 @@ git
 Move any tasks that were not finished yesterday to the first section. 
 First Section
 1just task 5 wasn't completed yesterday.
-2
-Second Section
-1
-2
-3
-Third Section
-1
-2
-3
 
-Tuesday March 31st.
+March 31st.
 1. Make sure yesterdays changes, edits, are commited to github. Do this first!
 2. Edit template.html page to match the  index.html page. Places that will need changed.
 2a. Head
@@ -59,17 +49,8 @@ Tuesday March 31st.
  https://www.mountainroseherbs.com/specials
  http://www.mojo-themes.com/item/spice-shoppe-bootstrap-shopping-cart/demo/
  http://www.starwest-botanicals.com/category/bulk-herbs/
-5 Create a product-template page. 
-5a It should look like the other pages however it should have  this look
-https://www.mountainroseherbs.com/products/olive-oil-organic-extra-virgin/profile
-The image should be on the left, the price with a drop down and a quantaty and the add to cart.
-It should include the information section but do not bring over the facebook pinit or tweet badges. 
 
-
-
-Older work.
-
-Mon March 30th
+March 30th
 First 2 hours - Create Contact us page from Right Sidebar page. Keep right sidebar, do not make changes to it. In the main content create contact us page.  
 http://www.searchenginejournal.com/25-amazing-contact-us-pages/93511/ shows some great contact us pages. Please look at them and design out a good design.
 I like this one the best. http://www.fhoke.com/contact/
