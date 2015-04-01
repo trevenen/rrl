@@ -1,5 +1,6 @@
 Todays work.
-
+april 1
+All the 2,3,4,5 task are completed.and updated on github
 Wednesday April 1st. 
 Learn how to correctly work github. 
 Daily you should do this before you start work.
@@ -11,7 +12,7 @@ git
 
 Move any tasks that were not finished yesterday to the first section. 
 First Section
-1
+1just task 5 wasn't completed yesterday.
 2
 Second Section
 1
