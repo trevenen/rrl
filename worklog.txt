@@ -1,12 +1,30 @@
 
 Todays work.
-april 1
+
+
+
+
+
+
+
+April 2
+Finish old tasks. 
+1 Create a product-template page. 
+1a It should look like the other pages however it should have this look
+https://www.mountainroseherbs.com/products/olive-oil-organic-extra-virgin/profile
+The image should be on the left, the price with a drop down and a quantity and the add to cart.
+It should include the information section but do not bring over the facebook pinit or tweet badges. 
+2. Fix the top nav portion of on all pages so they work correctly.
+3. Zip up your current site, email it to me. 
+4. Start putting hours by the tasks you do in this document for example  task 1  Create a product-template page 40 minutes.
+5. Enjoy your good hard work and know you are doing well. Prepare for April 3rds work by learning more about github comands.
+
+April 1
 All the 2,3,4,5 task are completed.and updated on github.
 I am getting the github very slowly.It seems difficult to me.But i will handle it.I havn't got the "checkout" work.I am reading the manuals.
 Please review the work and give me tomorrows work
 
-
-Wednesday April 1st. 
+April 1st. 
 Learn how to correctly work github. 
 Daily you should do this before you start work.
 In the directory you are workin in you should checkout the files. 
