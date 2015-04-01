@@ -2163,7 +2163,7 @@ div.wpcf7 {
 	#header
 	{
 		position: relative;
-		
+		background-image: url('../images/header.jpg');
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
@@ -2695,3 +2695,264 @@ div.wpcf7 {
 			{
 				text-align: center;
 			}
+
+			
+	/*********************************************************************************/
+/* Cart                                                                     */
+/*********************************************************************************/
+		
+			
+			
+
+	#cart .btn{
+		color:#fff;
+		background:#22292e;
+		text-align:left;
+		padding:0;
+		margin:12px 0 0 0;
+		font-size:16px;
+		-webkit-border-radius:0;
+		   -moz-border-radius:0;
+				border-radius:0;
+		-webkit-box-shadow:none;
+		   -moz-box-shadow:none;
+			 box-shadow:none;
+	}
+		#cart .btn .fa-shopping-cart{
+			background:#fcb500;
+			color:#22292e;
+			line-height:none;
+			padding:9px 8px;
+			font-size:25px;
+			margin-right:20px;
+		}
+		#cart .btn span#cart-total{
+			color:#777d80;
+			font-size:15px;
+			padding:0 8px 0 5px;
+			text-transform:uppercase;
+		}
+		#cart .btn i.fa-caret-down{
+			color:#fab005;
+			margin-left:10px;
+		}
+		#cart .dropdown-menu {
+			min-width: 100%;
+			margin-top:10px;
+			background:#22292e;
+			color:#fff;
+			border:none;
+			z-index: 1001;
+			padding:5px;
+			-webkit-border-radius:0;
+			   -moz-border-radius:0;
+					border-radius:0;
+		}
+		#cart .open > .dropdown-menu{
+			display:block;
+		}
+		#cart .dropdown-menu table {
+			margin-bottom: 10px;
+		}
+		#cart .dropdown-menu table, 
+		#cart .dropdown-menu table td{
+			background:none;
+			border:none;
+		}
+		#cart .dropdown-menu table.hcart td, 
+		.line-bottom{
+			border-bottom:1px solid #54575b;
+		}
+		.line-top, 
+		.btn-block1{
+			border-top:1px solid #54575b;
+		}
+		#cart .btn-block1{
+			padding:20px 0 0;
+		}
+		#cart .btn-block1 a{
+			padding:8px 12px;
+			margin-left:10px;
+			text-transform:uppercase;
+			font-size:12px;
+			text-decoration:none;
+		}
+		#cart .btn-block1 a:hover, #cart .btn-block1 a + a{
+			background:#ffb400;
+			color:#fff;
+		}
+		#cart .btn-block1 a, #cart .btn-block1 a + a:hover{
+			background:#fff;
+			color:#252a2f;
+		}
+		#cart .dropdown-menu li > div {
+			min-width: 427px;
+			padding: 0 10px;
+		}
+		#cart .dropdown-menu li p {
+			margin: 20px 0;
+		}
+		#cart .dropdown-menu table.total{
+		}
+		#cart .dropdown-menu table.total td{
+			padding:2px 8px;
+		}
+		#cart .dropdown-menu table td a{	
+			color:#ffb400;
+		}
+		#cart .dropdown-menu table td a:hover{
+			color:#fff;
+		}
+		
+/* Main Menu Styles Starts */
+
+	#main-menu{
+		background:#ffb400;
+	}
+	#main-menu.navbar{
+		margin:0;
+		padding:0;
+		border:none;
+		-webkit-border-radius:0;
+		   -moz-border-radius:0;
+				border-radius:0;
+	}
+		#main-menu .navbar-nav > li{
+		}
+		#main-menu .navbar-nav > li + li{
+			border-left:1px solid #ffc600;
+		}
+		#main-menu .navbar-nav > li a{
+			color:#252a2f;
+			text-transform:uppercase;
+		}
+		#main-menu .navbar-nav > li > a:hover, 
+		#main-menu .navbar-nav > li.open a{
+			background:#ff9000;
+			color:#fff;
+		}		
+			#main-menu .dropdown-menu{
+				background:#ff9000;
+				border:none;
+				padding:0;
+				-webkit-border-radius:0;
+				   -moz-border-radius:0;
+				        border-radius:0;
+				-webkit-box-shadow:none;
+				   -moz-box-shadow:none;
+				     box-shadow:none;
+			}
+				#main-menu .dropdown-menu li a{
+					color:#fff;
+					padding-top:6px;
+					padding-bottom:6px;
+				}
+				#main-menu .dropdown-menu li:hover a{
+					background:#ff7e00;
+					text-decoration:none;
+				}
+					#main-menu .dropdown-inner {
+						display:table;
+						padding-bottom:10px;
+					}
+						#main-menu .dropdown-inner ul {
+							display:table-cell;
+						}
+						#main-menu .dropdown-inner .dropdown-header{
+							font-size:15px;
+							text-transform:uppercase;
+							color:#font-size:15px;
+							text-transform:uppercase;
+							color:#252a2f;
+							padding:15px 0 10px 15px;
+						}
+						#main-menu .dropdown-inner li a {
+							min-width:160px;
+							display:block;
+							padding:3px 20px;
+							clear:both;
+						}	
+						
+						.products-list{
+		margin-bottom:15px;
+	}
+		.product-head{
+			 color: #fff;
+    font-size: 41px;
+    margin: 0 0 96px;
+    padding: 14px 20px;
+    text-align: center;
+		}
+		.product-col{
+			  margin-bottom: 20px;
+    padding: 15px 15px 10px;
+    text-align: center;
+			border:1px solid #e8e8e8;
+		}
+		.product-col.list .image{
+			padding:20px 30px 10px 0;
+			float:left;
+		}
+		.product-col .caption{
+			padding: 20px 0;
+		}
+			.product-col h4{
+				font-size:16px;
+				text-transform:uppercase;
+			}
+			.product-col h4, .product-col h4 a{
+				 font-weight: 700;font-family: 'Oswald', sans-serif;
+			}
+			.product-col h4 a:hover{text-decoration:none;color:#FFB400}
+			.product-col .description{
+				color: white;
+    font-size: 13px;
+    line-height: 18px;
+    padding: 5px 0;
+    text-align: center;font-family: 'Oswald', sans-serif;
+			}
+			.product-col.list .description{
+				padding-right:20px;
+			}
+			.product-col .price{
+				padding:10px 0;font-family: 'Oswald', sans-serif;
+			}
+				.product-col .price .price-tax{
+					font-size:14px;
+					color:#2f353b;
+					text-transform:uppercase;
+				}
+				.product-col .price span.price-new{
+					color:white;
+					font-size:24px;
+					padding-right:5px;
+				}
+				.product-col .price span.price-old{
+					font-size:18px;
+					color:red;
+					text-decoration:line-through;
+				}
+			.product-col .cart-button{
+				padding-top:10px;
+			}
+				.product-col .cart-button .btn{
+					-webkit-border-radius:0;
+					   -moz-border-radius:0;
+				            border-radius:0;
+				}
+				.product-col .btn-wishlist, 
+				.product-col .btn-compare{
+					color:#fff;
+					background:#2f353b;
+					margin-right:3px;
+				}
+				.product-col .btn-cart{
+					font-size:14px;
+					color:#2f353b;
+					background:#ffb400;
+					text-transform:uppercase;
+				}
+				.product-col .btn-cart:hover{
+					color:#fff !important;
+					background:#2f353b;
+				}
