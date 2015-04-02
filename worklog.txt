@@ -1,9 +1,10 @@
 Todays work.
 
 April 3 Tasks
-
-
-
+Product.html page changes/fixes.
+Change the add to cart button. Make it look like the other  buttons on the template, not the current add to cart button.
+Make sure Information box is wide enough for the words .
+Remove the section features section completely  
 
 April 2 Tasks
 Finish old tasks. 
