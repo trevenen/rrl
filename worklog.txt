@@ -1,22 +1,17 @@
 Todays work.
-Make sure your work is up to date with Github. I have made many changes. You need to make sure to incorporate them in your files..
 
+April 6th 
+Skype call - Check off last weeks work. Go through index, cart, shop. product pages. 
 
 April 3 
 done all modification took 20 mins
 
-
 April 2
-
 i have created product.html page as your instuction.So will i have to create an another product-tempate page or it is ok with product.html page.
 I have done this yesterday night and i havnt added this hour yet.can i add this for today?It took around one hour.And i am doing the changes in product.html
 Also i will try to add them on git hub and study your tutorial you gave me via mail.
 One question i have that are you happy with my work?Please tell me if something seems wrong to you.
 And please give me another 4 hours work for tomorrow.Because i have done only 4 hours last two days and i will do 2 hours today.
-
-
-April 6th
-
 
 April 3 Tasks
 Product.html page changes/fixes.
