@@ -1,7 +1,13 @@
 Todays work.
 
 April 6th 
-Skype call - Check off last weeks work. Go through index, cart, shop. product pages. 
+Skype call - Check off last weeks work. Go through index, cart, shop. product pages.
+Changes to index.html page.
+1. Change Nav section to use bigger font, same font as what is in carousel for capsule names, like Life Energy Fire. 
+2. carousel smaller "Whats in me?" that when clicked or touched opens a tooltip, popover, or something like that.  Should read cayenne, ginger, ginseng, milk thistle, and lecithin. (Somehow you need to fit that in some sort of popup or something that looks good and works. Maybe something like this,http://codepen.io/inital_a/pen/gIvmF/, or https://github.com/twbs/bootstrap/issues/6091 might help you get it to work. 
+3. change buy text to a button. It must look good and be a smaller version of the Continue Reading button. Words in it should be "buy".
+4. Remove Herbs Section from Nav. 
+
 
 April 3 
 done all modification took 20 mins
