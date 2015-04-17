@@ -2346,17 +2346,21 @@ div.wpcf7 {
 				#nav > ul > li > a,
 				#nav > ul > li > span
 				{
-					display: block;
-					color: inherit;
-					text-decoration: none;
-					border: 0;
-					outline: 0;
+					   border: 0 none;
+    color: inherit;
+    display: block;
+    font-size: 1.25em;
+    font-weight: normal;
+    outline: 0 none;
+    text-decoration: none;
 				}
 
 				#nav > ul > li > ul
 				{
 					display: none;
 				}
+				#nav > ul > li > a:hover{color: #ef8376;
+			border-bottom-color: transparent;}
 
 	.dropotron
 	{
@@ -2417,6 +2421,118 @@ div.wpcf7 {
 				border-left: solid 0.75em rgba(64,64,64,0);
 				border-right: solid 0.75em rgba(64,64,64,0);
 			}
+.buttonssss{  background: #df7366 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0.5em;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 300;
+    height: 41px;
+    outline: 0 none;
+    padding: 3px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.35s ease-in-out 0s, color 0.35s ease-in-out 0s, border-bottom-color 0.35s ease-in-out 0s;
+    width: 84px;}
+.buttonssss:hover{color:#fff;background:#ef8376}
+.sm{ font-size: 15px;
+    margin-bottom: 9px;
+    margin-top: 3px;}
+
+
+	
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+a.tooltipss {outline:none; }
+a.tooltipss strong {}
+a.tooltipss:hover {text-decoration:none;} 
+a.tooltipss span {
+         display: none;
+    font-size: 11px;
+    margin-left: 13px;
+    margin-top: -1px;
+    width: 164px;
+    z-index: 10;
+}
+
+.bal{width:10px;height:10px}
+a.tooltipss  span:after{   background: rgba(0, 0, 0, 0) url("../images/arro.png") repeat scroll 0 0;
+    content: "";
+    height: 21px;
+    left: -9px;
+    position: absolute;
+    top: -2px;
+    transform: rotate(-2deg);
+    width: 10px;}
+a.tooltipss:hover span{
+    display:inline; position:absolute; 
+    border:2px solid #FFF;  color:black;
+    background:white 
+}
+
+a.tooltips {outline:none; }
+a.tooltips strong {}
+a.tooltips:hover {text-decoration:none;} 
+a.tooltips span {
+        display: none;
+    font-size: 11px;
+    margin-left: -121px;
+    margin-top: 27px;
+    width: 164px;
+    z-index: 10;
+}
+
+.bal{width:10px;height:10px}
+a.tooltips  span:after{ background: rgba(0, 0, 0, 0) url("../images/arro.png") repeat scroll 0 0;
+    content: "";
+    height: 21px;
+    left: 77px;
+    position: absolute;
+    top: -14px;
+    transform: rotate(86deg);
+    width: 10px}
+a.tooltips:hover span{
+    display:inline; position:absolute; 
+    border:2px solid #FFF;  color:black;
+    background:white 
+}
+a.tooltip {outline:none; }
+a.tooltip strong {}
+a.tooltip:hover {text-decoration:none;} 
+a.tooltip span {
+      display: none;
+     margin-left: -78px;
+    margin-top: 20px;font-size:11px;
+   
+    width: 164px;
+    z-index: 10
+}
+.bal{width:10px;height:10px}
+a.tooltip  span:after{ background: rgba(0, 0, 0, 0) url("../images/arro.png") repeat scroll 0 0;
+    content: "";
+    height: 21px;
+    left: 77px;
+    position: absolute;
+    top: -14px;
+    transform: rotate(86deg);
+    width: 10px}
+a.tooltip:hover span{
+    display:inline; position:absolute; 
+    border:2px solid #FFF;  color:black;
+    background:white 
+}
+.callout {}
+    
+/*CSS3 extras*/
+a.tooltip span
+{
+    border-radius:2px;        
+    background:white
+    /*opacity: 0.8;*/
+}
 
 /*********************************************************************************/
 /* Banner                                                                        */
@@ -3080,3 +3196,183 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     transition-duration: 0.2s;
     transition-property: border, background-color, color, box-shadow;
 }
+/*********************************************************************************/
+/* cart                                                                       */
+/*********************************************************************************/
+
+.sidebar{
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+}
+.sidebar .widget::after, .sidebar .widget::before {
+    clear: both;
+    content: "";
+    display: table;
+}
+.sidebar .widget .widget-title {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 8px 12px;
+}
+.sidebar .widget .widget-title h3 {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 14px;
+    margin: 0;
+}
+.sidebar .cart a {
+    color: #333;
+    text-decoration: none;
+}
+.sidebar .cart a {
+   color: white;
+    font-size: 16px;
+    text-decoration: none;font-weight:bold
+}
+.sidebar .cart a  span{color:white}
+.cg{color:white !important;font-size: 16px;font-weight:bold !important}
+.cartbal{ border: 2px solid white;
+    padding: 11px}
+.cart {
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+}
+.cartr{margin-top: -21px !important;}
+.butons{   background: #df7366 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0.5em;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 300;
+    height: 41px;
+    outline: 0 none;
+    padding: 9px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.35s ease-in-out 0s, color 0.35s ease-in-out 0s, border-bottom-color 0.35s ease-in-out 0s;
+    width: 84px;text-decoration:none !important;  margin-top: 54px}
+.butons:hover{color:#fff;background:#ef8376}
+.payment{margin-top: 55px}
+.payment p{color:white;font-weight:bold}
+.payment p span{color:red;font-weight:bold}
+.butonss{   background: #df7366 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0.5em;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 300;
+    height: 41px;
+    margin-top: 43px;
+    outline: 0 none;
+    padding: 3px;
+    position: relative;
+    text-align: center;
+    text-decoration: none !important;
+    transition: background-color 0.35s ease-in-out 0s, color 0.35s ease-in-out 0s, border-bottom-color 0.35s ease-in-out 0s;
+    width: 115px;}
+.butonss:hover{color:#fff;background:#ef8376}
+.form-control {
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 16px;
+    height: 34px;
+    line-height: 1.42857;
+    padding: 5px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 82%
+}
+.ccccc{ margin-bottom: 9px;}
+.cccccc{ margin-bottom: -12px}
+.price-old{   color: red;
+    margin-right: 49px;
+    text-decoration: line-through;}
+.product-single {
+    background:;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 15px;
+}
+#product-single{ margin-left: 156px;
+    margin-top: 28px;
+    width: 134px}
+#desc{ border: 1px solid;
+    padding: 14px}
+.bodys{}
+.heading-title{ margin-top: 55px;}
+/*********************************************************************************/
+/* popup                                                                      */
+/*********************************************************************************/
+
+#mask {
+  position:absolute;
+  left:0;
+  top:0;
+  z-index:9000;
+  background-color:#000;
+  display:none;
+}  
+#boxes .window {
+  position:absolute;
+  left:0;
+  top:0;
+  width:600px !important;
+  height:400px !important;
+  display:none;
+  z-index:9999;
+  padding:20px;
+}
+#boxes #dialog {
+     background: #c5c5c5 none repeat scroll 0 0;
+    border-radius: 11px;
+    height: 203px;
+    padding: 10px;
+    width: 375px;
+}
+.dialog{text-align:center}
+.dialog h2{text-align:center}
+.popbody p{ color: black;
+    font-size: 43px;
+    margin-top: 29px;
+    text-align: center}
+.popbody p span{ color: #4cb907;
+    font-weight: bold;
+    line-height: 2;
+    text-align: center;
+    text-transform: uppercase;}
+.popuphead{ text-align: center;}
+.popuphead h2{color:black; margin-top: 45px;}
+.close{color: black;
+    float: right;font-weight:bold}
+.buttonssssss{  background: #df7366 none repeat scroll 0 0;
+    border: 0 none;
+    border-radius: 0.5em;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 300;
+    height: 41px;
+    margin-top: 43px;
+    outline: 0 none;
+    padding: 3px;
+    position: relative;
+    text-align: center;
+    text-decoration: none !important;
+    transition: background-color 0.35s ease-in-out 0s, color 0.35s ease-in-out 0s, border-bottom-color 0.35s ease-in-out 0s;
+    width: 115px;}
+.buttonssssss:hover{color:#fff;background:#ef8376}
+.floatleft{float:left}
+.floatright{float:right}
+.popbutton{ margin: -59px auto;
+    width: 374px;}

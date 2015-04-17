@@ -1,5 +1,13 @@
 Todays work.
 
+April 18th
+1. Download most recent git hub update. It is the files from April 10th with pop
+up.
+2. Make sure all images on all page have relative paths that none of them have absolute
+paths. 
+  
+
+
 April 6th 
 Skype call - Check off last weeks work. Go through index, cart, shop. product pages.
 Changes to index.html page.
