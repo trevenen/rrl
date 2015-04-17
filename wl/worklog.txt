@@ -13,7 +13,7 @@ paths.
 images to use some of our products. Copy then Remove the information about Ginger
 Cayenne Pepper, and Ginseng Replace it with something about the product images
 you chose. Take the copied info and put it in txt files in a txt folder.
-
+7. Push to github.
 
 April 6th 
 Skype call - Check off last weeks work. Go through index, cart, shop. product pages.
