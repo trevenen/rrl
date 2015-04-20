@@ -2444,7 +2444,7 @@ div.wpcf7 {
 
 	
 /*********************************************************************************/
-/* Banner                                                                        */
+/* tooltip                                                                       */
 /*********************************************************************************/
 a.tooltipss {outline:none; }
 a.tooltipss strong {}
@@ -2477,23 +2477,23 @@ a.tooltips {outline:none; }
 a.tooltips strong {}
 a.tooltips:hover {text-decoration:none;} 
 a.tooltips span {
-        display: none;
+           display: none;
     font-size: 11px;
-    margin-left: -121px;
-    margin-top: 27px;
+    margin-left: 13px;
+    margin-top: -1px;
     width: 164px;
     z-index: 10;
 }
 
 .bal{width:10px;height:10px}
-a.tooltips  span:after{ background: rgba(0, 0, 0, 0) url("../images/arro.png") repeat scroll 0 0;
+a.tooltips  span:after{   background: rgba(0, 0, 0, 0) url("../images/arro.png") repeat scroll 0 0;
     content: "";
     height: 21px;
-    left: 77px;
+    left: -9px;
     position: absolute;
-    top: -14px;
-    transform: rotate(86deg);
-    width: 10px}
+    top: -2px;
+    transform: rotate(-2deg);
+    width: 10px;}
 a.tooltips:hover span{
     display:inline; position:absolute; 
     border:2px solid #FFF;  color:black;
@@ -2503,22 +2503,22 @@ a.tooltip {outline:none; }
 a.tooltip strong {}
 a.tooltip:hover {text-decoration:none;} 
 a.tooltip span {
-      display: none;
-     margin-left: -78px;
-    margin-top: 20px;font-size:11px;
-   
+        display: none;
+    font-size: 11px;
+    margin-left: 48px;
+    margin-top: -72px;
     width: 164px;
     z-index: 10
 }
 .bal{width:10px;height:10px}
-a.tooltip  span:after{ background: rgba(0, 0, 0, 0) url("../images/arro.png") repeat scroll 0 0;
+a.tooltip  span:after{    background: rgba(0, 0, 0, 0) url("../images/arro.png") repeat scroll 0 0;
     content: "";
     height: 21px;
-    left: 77px;
+    left: -9px;
     position: absolute;
-    top: -14px;
-    transform: rotate(86deg);
-    width: 10px}
+    top: 5px;
+    transform: rotate(4deg);
+    width: 10px;}
 a.tooltip:hover span{
     display:inline; position:absolute; 
     border:2px solid #FFF;  color:black;

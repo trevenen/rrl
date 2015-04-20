@@ -2,19 +2,19 @@ Todays work.
 
 April 18th
 1. Download most recent git hub update. It is the files from April 10th with pop
-up.
+up.(done)
 2. Learn how to use git command called checkout. This should help you not have
-issues with git.
+issues with git.(done with github for windows application)
 3. Make sure all images on all page have relative paths that none of them have absolute
 paths. 
-4. Edit the contact page where it says "about your project" to "comment or question"
+4. Edit the contact page where it says "about your project" to "comment or question"(done(2mins)
 5. On index page, move about us up the page below the jumbotron. 
 6. On index page, update product highlight to just products. Then change the
 images to use some of our products. Copy then Remove the information about Ginger
 Cayenne Pepper, and Ginseng Replace it with something about the product images
 you chose. Take the copied info and put it in txt files in a txt folder.
 7 On index page, make all tool tips show to the right of the image or text
-like when hovering over the Enery "Whats in me?" text.
+like when hovering over the Enery "Whats in me?" text. (done 20 mins)
 8. Push to github.
 
 April 6th 
