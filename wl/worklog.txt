@@ -1,4 +1,19 @@
 Todays work.
+April 20th. 
+1. Edit Index.html page tool tips put what is inside of " " in tooltips. Make sure it looks good. 
+   a. Life Pill image. "The original, the first" 
+   aa. Whats in me.    "Cayenne Cinnamon Ginger Ginseng Milk Thisle Lecithin"
+2. From 18th. #5 remove line 410-417 or the 			
+     <h2>&nbsp;</h2>
+     <h2>&nbsp;</h2>
+					<h2>&nbsp;</h2>
+					<h2>&nbsp;</h2>
+					<h2>&nbsp;</h2>
+     <h2>&nbsp;</h2>
+					<h2>&nbsp;</h2>
+3. Create a login/sign in page called signup.html use our theme, however notice these pages, they all have a really good login. http://www.webdam.com/how-to-select-a-DAM/
+or http://www.hbloom.com/ResidentialSubscriptions/ or http://www.velaro.com/resources/proactive-chat-whitepaper/ or http://conversionlab.no/
+Make a couple pages with some examples like these, for example signup-webdam.html all the way through signup-conversion.html
 
 April 18th
 1. Download most recent git hub update. It is the files from April 10th with pop
