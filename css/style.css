@@ -2477,21 +2477,22 @@ a.tooltips {outline:none; }
 a.tooltips strong {}
 a.tooltips:hover {text-decoration:none;} 
 a.tooltips span {
-           display: none;
+               border-radius: 5px;
+    display: none;
     font-size: 11px;
     margin-left: 13px;
-    margin-top: -1px;
-    width: 164px;
+    margin-top: -12px;
+    width: 197px;
     z-index: 10;
 }
 
 .bal{width:10px;height:10px}
-a.tooltips  span:after{   background: rgba(0, 0, 0, 0) url("../images/arro.png") repeat scroll 0 0;
+a.tooltips  span:after{    background: rgba(0, 0, 0, 0) url("../images/arro.png") repeat scroll 0 0;
     content: "";
     height: 21px;
     left: -9px;
     position: absolute;
-    top: -2px;
+    top: 8px;
     transform: rotate(-2deg);
     width: 10px;}
 a.tooltips:hover span{
@@ -3376,3 +3377,30 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 .floatright{float:right}
 .popbutton{ margin: -59px auto;
     width: 374px;}
+	/*********************************************************************************/
+/* sign up                                                                   */
+/*********************************************************************************/
+.form-list__items{float: left;
+    margin-bottom: 60px;
+    padding: 0 1.53374%;
+    width: 66%%;position:relative}
+.form-lists {
+    list-style: outside none none;
+    margin: 0 auto;
+    padding: 0;
+    width: 62%;
+}
+.lift {
+   
+    padding-left: 133px!important;
+   
+}
+.boll{ color: white;
+    margin-top: -50px;}
+.boll span{color:red;}
+.sal{ font-size: 72px;
+    font-weight: bold;
+    margin: 0 auto 32px;
+    width: 249px;}
+.sighhh{ color: white;
+    margin-top: 21px;}
