@@ -15,6 +15,18 @@ April 23rd.
     h. Change Description words starting with Lorem.
 " RedRock Life, the perfect cobination of Cayanne, Cinnamon, Ginger, Ginseng, Milk Thistle, and Lecithin. 
   Our ingredients are only the highest quality, and after taking 10 you will feel the differnce. Try some today. "  
+    i. Change prices on Related Products. 27.95 for each one and comment out the red price so it does not show. 
+    j. Get some more herb images (Cayenne, Cinnamon, Ginger, Ginseng, Milk Thistle, Lecithin) and fill in the 	<!-- Photos --> image like you did with index.html.
+    k. With the related products make the first 2 pills and 1 a necklace, and the last goat milk soap.  
+    l. Change the words simply organic seeds (on any of the files) to, This pill has cayanne as the main ingredient, it also contains cinnamon, milk thistle, and lecithin.
+4. Soap page.
+    a. comment out the red price. 
+    b. Change peace love and joy to Hand Made Artisian Goat Milk Soap. Change the price to 4.75 for small bar and 7.45 for large bar. 
+    c. Get some more herb images (Cayenne, Cinnamon, Ginger, Ginseng, Milk Thistle, Lecithin) and fill in the 	<!-- Photos --> image like you did with index.html.
+5.  a. comment out the red price. 
+    b. Change peace love and joy to Hand Made Artisian Oil Necklace. Change the price to 7.50 for small bar. 
+    c. Get some more herb images (Cayenne, Cinnamon, Ginger, Ginseng, Milk Thistle, Lecithin) and fill in the 	<!-- Photos --> image like you did with index.html.
+
 
 
 
