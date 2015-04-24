@@ -1,19 +1,28 @@
 Todays work.
-<<<<<<< HEAD
-Todays work.
-=======
->>>>>>> origin/master
+April 23rd. 
+1. Download my changes from Github. 
+2. index.html page work. 
+    a. Get some more herb images (Cayenne, Cinnamon, Ginger, Ginseng, Milk Thistle, Lecithin) and fill in the 	<!-- Photos --> image locations starting on line 570.  
+    b. Ensure page looks good on all devices, take screen shot of each resolution and send it to my email address. (Iphone, Ipad, Computer at different resolutions.)
+3. cart.html
+    a. Fix the scrolling between pills. It doesn't look good. Should be a bit bigger. 
+    b. Change product title to RedRock Life.
+    c. Change Brand to Name remove Product Code (Don't Delete just comment out.)
+    d. Comment out price in red with underline.
+    e. Commment out Color, and Size. 
+    f. Change Quantity to allow drop down of 10 30 60.
+    g. Make the page look better. Simple is better. Do the changes I have asked, then make a cartv1.html page and try to make it look better. Show me how good you can do. 
+    h. Change Description words starting with Lorem.
+" RedRock Life, the perfect cobination of Cayanne, Cinnamon, Ginger, Ginseng, Milk Thistle, and Lecithin. 
+  Our ingredients are only the highest quality, and after taking 10 you will feel the differnce. Try some today. "  
+
+
+
 April 20th. 
 1. Edit Index.html page tool tips put what is inside of " " in tooltips. Make sure it looks good. 
    a. Life Pill image. "The original, the first" 
    aa. Whats in me.    "Cayenne Cinnamon Ginger Ginseng Milk Thisle Lecithin" (done 25min)
 2. From 18th. #5 remove line 410-417 or the 			
-     <h2>&nbsp;</h2>
-     <h2>&nbsp;</h2>
-					<h2>&nbsp;</h2>
-					<h2>&nbsp;</h2>
-					<h2>&nbsp;</h2>
-     <h2>&nbsp;</h2>
 					<h2>&nbsp;</h2>(done 2 mins)
 3. Create a login/sign in page called signup.html use our theme, however notice these pages, they all have a really good login. http://www.webdam.com/how-to-select-a-DAM/
 or http://www.hbloom.com/ResidentialSubscriptions/ or http://www.velaro.com/resources/proactive-chat-whitepaper/ or http://conversionlab.no/
@@ -33,13 +42,9 @@ paths.
 images to use some of our products. Copy then Remove the information about Ginger
 Cayenne Pepper, and Ginseng Replace it with something about the product images
 you chose. Take the copied info and put it in txt files in a txt folder.(done 20mins)
-<<<<<<< HEAD
 7 On index page, make all tool tips show to the right of the image or text
 like when hovering over the Enery "Whats in me?" text. (done 20 mins)
 8. Push to github.
-=======
-
->>>>>>> parent of 5027e26... Updated site structure.
 
 April 6th 
 Skype call - Check off last weeks work. Go through index, cart, shop. product pages.
