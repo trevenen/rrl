@@ -5,14 +5,14 @@ April 23rd.
     a. Get some more herb images (Cayenne, Cinnamon, Ginger, Ginseng, Milk Thistle, Lecithin) and fill in the 	<!-- Photos --> image locations starting on line 570.(done in 20 mins)  
     b. Ensure page looks good on all devices, take screen shot of each resolution and send it to my email address. (Iphone, Ipad, Computer at different resolutions.)(done  40 min sent by email)
 3. cart.html
-    a. Fix the scrolling between pills. It doesn't look good. Should be a bit bigger. 
-    b. Change product title to RedRock Life.
-    c. Change Brand to Name remove Product Code (Don't Delete just comment out.)
-    d. Comment out price in red with underline.
-    e. Commment out Color, and Size. 
-    f. Change Quantity to allow drop down of 10 30 60.
+    a. Fix the scrolling between pills. It doesn't look good. Should be a bit bigger. (done )
+    b. Change product title to RedRock Life.(done )
+    c. Change Brand to Name remove Product Code (Don't Delete just comment out.)(done )
+    d. Comment out price in red with underline.(done)
+    e. Commment out Color, and Size.(done) 
+    f. Change Quantity to allow drop down of 10 30 60.(done)
     g. Make the page look better. Simple is better. Do the changes I have asked, then make a cartv1.html page and try to make it look better. Show me how good you can do. 
-    h. Change Description words starting with Lorem.
+    h. Change Description words starting with Lorem.(done)
 " RedRock Life, the perfect cobination of Cayanne, Cinnamon, Ginger, Ginseng, Milk Thistle, and Lecithin. 
   Our ingredients are only the highest quality, and after taking 10 you will feel the differnce. Try some today. "  
     i. Change prices on Related Products. 27.95 for each one and comment out the red price so it does not show. 
