@@ -3395,6 +3395,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     padding-left: 133px!important;
    
 }
+.img-responsive{margin: 0 auto;}
 .boll{ color: white;
     margin-top: -50px;}
 .boll span{color:red;}

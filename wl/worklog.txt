@@ -2,8 +2,8 @@ Todays work.
 April 23rd. 
 1. Download my changes from Github. 
 2. index.html page work. 
-    a. Get some more herb images (Cayenne, Cinnamon, Ginger, Ginseng, Milk Thistle, Lecithin) and fill in the 	<!-- Photos --> image locations starting on line 570.  
-    b. Ensure page looks good on all devices, take screen shot of each resolution and send it to my email address. (Iphone, Ipad, Computer at different resolutions.)
+    a. Get some more herb images (Cayenne, Cinnamon, Ginger, Ginseng, Milk Thistle, Lecithin) and fill in the 	<!-- Photos --> image locations starting on line 570.(done in 20 mins)  
+    b. Ensure page looks good on all devices, take screen shot of each resolution and send it to my email address. (Iphone, Ipad, Computer at different resolutions.)(done  40 min sent by email)
 3. cart.html
     a. Fix the scrolling between pills. It doesn't look good. Should be a bit bigger. 
     b. Change product title to RedRock Life.
