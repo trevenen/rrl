@@ -3390,7 +3390,24 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     padding: 0;
     width: 62%;
 }
+.headst{ overflow: hidden;
+    text-align: center;}
+.balerc {
+    border-right: 3px solid;
+    width: 45% !important;
+}
+.balsala{ margin-top: 59px;}
+.single-desc{  margin-left: 121px;
+    padding-top: 52px;}
 .images{margin-top: 25px;}
+.version2{}
+.version2 span{color: white;
+    font-size: 23px;
+    font-weight: 800;
+    padding: 33px;}
+.form-control {
+   float:right;
+    width: 36%!important;}
 .lift {
    
     padding-left: 133px!important;
