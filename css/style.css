@@ -3390,6 +3390,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     padding: 0;
     width: 62%;
 }
+.images{margin-top: 25px;}
 .lift {
    
     padding-left: 133px!important;
