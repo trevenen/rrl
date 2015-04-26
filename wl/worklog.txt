@@ -21,7 +21,7 @@ For the 4 years, Mr and Mrs. Red didn't get sick, they were not as tired, and th
 
 April 23rd. 
 1. Download my changes from Github. 
-2. index.html page work. 
+2. index.html page work. (done 1hr 10min)
     a. Get some more herb images (Cayenne, Cinnamon, Ginger, Ginseng, Milk Thistle, Lecithin) and fill in the 	<!-- Photos --> image locations starting on line 570.(done in 20 mins)  
     b. Ensure page looks good on all devices, take screen shot of each resolution and send it to my email address. (Iphone, Ipad, Computer at different resolutions.)(done  40 min sent by email)
 3. cart.html
@@ -35,10 +35,10 @@ April 23rd.
     h. Change Description words starting with Lorem.(done)
 " RedRock Life, the perfect cobination of Cayanne, Cinnamon, Ginger, Ginseng, Milk Thistle, and Lecithin. 
   Our ingredients are only the highest quality, and after taking 10 you will feel the differnce. Try some today. "  
-    i. Change prices on Related Products. 27.95 for each one and comment out the red price so it does not show. 
-    j. Get some more herb images (Cayenne, Cinnamon, Ginger, Ginseng, Milk Thistle, Lecithin) and fill in the 	<!-- Photos --> image like you did with index.html.
+    i. Change prices on Related Products. 27.95 for each one and comment out the red price so it does not show. (done)
+    j. Get some more herb images (Cayenne, Cinnamon, Ginger, Ginseng, Milk Thistle, Lecithin) and fill in the 	<!-- Photos --> image like you did with index.html.(done)
     k. With the related products make the first 2 pills and 1 a necklace, and the last goat milk soap.  
-    l. Change the words simply organic seeds (on any of the files) to, This pill has cayanne as the main ingredient, it also contains cinnamon, milk thistle, and lecithin.
+    l. Change the words simply organic seeds (on any of the files) to, This pill has cayanne as the main ingredient, it also contains cinnamon, milk thistle, and lecithin.(done)
 4. Soap page.
     a. comment out the red price. 
     b. Change peace love and joy to Hand Made Artisian Goat Milk Soap. Change the price to 4.75 for small bar and 7.45 for large bar. 
