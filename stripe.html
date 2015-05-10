@@ -537,6 +537,67 @@
 					</div>
 				</div>
 			</div>
+<?php
 
+$msg = $error_msg = "";
+
+if( $_POST ) {
+
+require_once ( JPATH_BASE .'/stripe-php/lib/stripe.php' );
+
+Stripe::setApiKey("sk_test_8rwPf2BjPxOa1sJGcqUd0Wb4");
+
+ 
+
+// Get the credit card details submitted by the form
+
+$token = $_POST['stripeToken'];
+
+
+
+ 
+
+
+try {
+
+  $charge = \Stripe\Charge::create(array(
+   
+      'amount'=>5000,
+      'currency' => 'usd'
+  ));
+
+ 
+
+$msg = "Payment charged successfully. Your charge id is \"".$charge->id."\".";
+
+} catch(Stripe_Error $e) {
+
+
+
+$body = $e->getJsonBody();
+
+$err = $body['error'];
+
+$error_msg = $err['param'].' : '.$err['message'];
+
+}
+
+}
+
+ 
+
+if( $msg ) {
+
+echo '<div style="color:green">'.$msg.'</div>';
+
+}
+
+if( $error_msg ) {
+
+echo '<div style="color:red">'.$error_msg.'</div>';
+
+}
+
+?>
 	</body>
 </html>
