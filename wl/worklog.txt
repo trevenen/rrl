@@ -3,7 +3,7 @@ May 12
 
 1.Link up sing_up.html in the signup button in pop up.(5 min)
 2.make easy the sign up process.
-3.some copy paste on stripe.html page 
+3.some copy paste on stripe.html page (5min)
 
 May 11
 1.Stripe researching(3hr)
