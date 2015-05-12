@@ -1,4 +1,13 @@
 Todays work.
+May 12
+
+1.Link up sing_up.html in the signup button in pop up.(5 min)
+2.make easy the sign up process.
+3.some copy paste on stripe.html page 
+
+May 11
+1.Stripe researching(3hr)
+
 May 4th.
  On all Pages:
     a. On the bottom of all pages add "Updated: May 4th 2015" after the text © RedRock-Life.com. All rights reserved. Design: Opensailsdev.com (done in 25 mins )
