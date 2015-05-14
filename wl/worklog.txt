@@ -1,4 +1,7 @@
 Todays work.
+may 15 (total 1:10hrs on odesk)
+1)making all the files to .php done(done 45mins)
+2)sign_up.php page modification (done 25mis)
 May 12
 
 1.Link up sing_up.html in the signup button in pop up.(5 min)
