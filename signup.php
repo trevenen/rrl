@@ -29,18 +29,20 @@
                                  <div class="screen-reader-response"></div>
                               			<form class="form-lists flat white vertical corporate-lead-form" method="POST" action="sign_up.php" id="" data-lead="Residential">
 <?php
-    $Name = $_POST['Name'];
+
+    
+	if (isset($_post["submit"])){
     $Email = $_POST['Email'];
     $Phone = $_POST['Phone'];
-    $Password = $_POST['Password'];
-    $from = 'From: kamrul'; 
+    $Password = $_POST['Password']; 
+    $from = 'From:shuvo '; 
     $to = 'kamrulhasanshuvo@outlook.com'; 
-    $subject = 'Hello';
+    $subject = 'Sign Up';
     
 			
-    $body = "From: $Name\n E-Mail: $Email\n Phone:\n $Phone Password:\n $Password";
+    $body = "From: $Name\n E-Mail: $Email\n  Password:\n $Password Phone:\n $Phone";
 				
-    if ($_POST['submit'] ) {				 
+  if ($_POST['submit'] ) {				 
         if (mail ($to, $subject, $body, $from)) { 
 	    echo '<p>Your message has been sent!</p>';
 	} else { 
@@ -49,6 +51,7 @@
     } else if ($_POST['submit'] && $human != '4') {
 	echo '<p>You answered the anti-spam question incorrectly!</p>';
     }
+	}
 ?>
    				<label class="sighhh"  for="name">Full Name</label>
    				<input type="text" name="Name" id="Name" required="required" />
