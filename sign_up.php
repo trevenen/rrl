@@ -33,9 +33,9 @@
     $Email = $_POST['Email'];
     $Phone = $_POST['Phone'];
     $Password = $_POST['Password'];
-    $from = 'From: kamrul'; 
-    $to = 'kamrulhasanshuvo@outlook.com'; 
-    $subject = 'Hello';
+    $from = 'From: Redrock Life'; 
+    $to = 'signup@redrock-life.com'; 
+    $subject = 'Sign Up Detail';
     
 			
     $body = "From: $Name\n E-Mail: $Email\n Phone:\n $Phone Password:\n $Password";

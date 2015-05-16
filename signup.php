@@ -27,20 +27,10 @@
                               </header>
                               <div class="wpcf7" id="wpcf7-f133-o1" dir="ltr">
                                  <div class="screen-reader-response"></div>
-                              			<form class="form-lists flat white vertical corporate-lead-form" method="POST" action="sign_up.php" id="" data-lead="Residential">
+                              			<form class="form-lists flat white vertical corporate-lead-form" method="POST" action="forms.php" id="" data-lead="Residential">
 <?php
 
-    
-	if (isset($_post["submit"])){
-    $Email = $_POST['Email'];
-    $Phone = $_POST['Phone'];
-    $Password = $_POST['Password']; 
-    $from = 'From:shuvo '; 
-    $to = 'kamrulhasanshuvo@outlook.com'; 
-    $subject = 'Sign Up';
-    
-			
-    $body = "From: $Name\n E-Mail: $Email\n  Password:\n $Password Phone:\n $Phone";
+  
 				
   if ($_POST['submit'] ) {				 
         if (mail ($to, $subject, $body, $from)) { 
@@ -50,7 +40,7 @@
 	} 
     } else if ($_POST['submit'] && $human != '4') {
 	echo '<p>You answered the anti-spam question incorrectly!</p>';
-    }
+    
 	}
 ?>
    				<label class="sighhh"  for="name">Full Name</label>
