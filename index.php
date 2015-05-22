@@ -29,7 +29,7 @@
 				  <article>
 				    <a href="#"   class="image pill tooltip"><img src="images/16.png" alt="" />
 					<span>
-        <strong>The original, the first</strong><br />
+        <strong>$31.25</strong><br />
         
     </span>
 					</a>				   			    		
@@ -37,7 +37,7 @@
 							<h3><a href="#">Life</a></h3>
 							<h3 class="sm"><a  href="#"   class=" tooltips">Whats in me?
 									<span>
-        <strong>Cayenne Cinnamon Ginger Ginseng Milk Thisle Lecithin</strong><br />
+        <strong>Cayenne, Cinnamon, Ginger, Ginseng, Milk Thistle, Lecithin</strong><br />
         
     </span>
 							</a></h3>
@@ -48,7 +48,7 @@
 					<article>
 					  <a href="#" class="image pill tooltip"><img src="images/16.png" alt="" />
 					  <span>
-        <strong>The original, the first</strong><br />
+        <strong>$31.25</strong><br />
         
     </span>
 					  </a>
@@ -56,7 +56,7 @@
 							<h3><a href="#">Energy</a></h3>
 							<h3 class="sm"><a class="tooltips" href="#">Whats in me?
 							<span>
-        <strong>Cayenne Cinnamon Ginger Ginseng Milk Thisle Lecithin</strong><br />
+        <strong>Cayenne, Cinnamon, Ginger, Ginseng, Moringa, Milk Thistle, Lecithin</strong><br />
         
     </span>
 							</a></h3>
@@ -67,7 +67,7 @@
 				  <article>
 				    <a href="#" class="image pill tooltip"><img src="images/16.png" alt="" />
 					<span>
-        <strong>The original, the first</strong><br />
+        <strong>$31.25</strong><br />
         
     </span>
 					</a>
@@ -75,7 +75,7 @@
                     		<h3><a href="#">Fire</a></h3>
 							<h3 class="sm"><a class="tooltips" href="#">Whats in me?
 							<span>
-        <strong>Cayenne Cinnamon Ginger Ginseng Milk Thisle Lecithin</strong><br />
+        <strong>90K cayenne, Ginseng, Ginger, 40K Cayenne, Milk Thistle</strong><br />
         
     </span>
 							</a></h3>
@@ -86,7 +86,7 @@
 				  <article>
 				    <a href="#" class="image pill tooltip"><img src="images/16.png" alt="" />
 					<span>
-        <strong>The original, the first</strong><br />
+        <strong>$31.25</strong><br />
         
     </span>
 					</a>
@@ -94,7 +94,7 @@
 							<h3><a href="#">ZZZ</a></h3>
 							<h3 class="sm"><a class="tooltips" href="#">Whats in me?
 							<span>
-        <strong>Cayenne Cinnamon Ginger Ginseng Milk Thisle Lecithin</strong><br />
+        <strong>Cayenne, Cinnamon, Ginger, Valerian , Milk Thistle, Lecithin</strong><br />
         
     </span>
 							</a></h3>
@@ -105,7 +105,7 @@
 				  <article>
 				    <a href="#" class="image pill tooltip"><img src="images/16.png" alt="" />
 					<span>
-        <strong>The original, the first</strong><br />
+        <strong>$31.25</strong><br />
         
     </span>
 					</a>
@@ -113,7 +113,7 @@
 							<h3><a href="#">Smile</a></h3>
 							<h3 class="sm"><a class="tooltips" href="#">Whats in me?
 							<span>
-        <strong>Cayenne Cinnamon Ginger Ginseng Milk Thisle Lecithin</strong><br />
+        <strong>Cayenne, St Johns Wort, Mugwort, Milk Thistle, Lecithin</strong><br />
         
     </span>
 							
@@ -127,7 +127,7 @@
 				  <article>
 				    <a href="#" class="image pill tooltip"><img src="images/16.png" alt="" />
 					<span>
-        <strong>The original, the first</strong><br />
+        <strong>$31.25</strong><br />
         
     </span>
 					</a>
@@ -148,7 +148,7 @@
 				  <article>
 				    <a href="#" class="image pill tooltip"><img src="images/16.png" alt="" />
 					<span>
-        <strong>The original, the first</strong><br />
+        <strong>$31.25</strong><br />
         
     </span>
 					</a>
@@ -156,7 +156,7 @@
 							<h3><a href="#">Peace</a></h3>
 							<h3 class="sm"><a class="tooltips" href="#">Whats in me?
 							<span>
-        <strong>Cayenne Cinnamon Ginger Ginseng Milk Thisle Lecithin</strong><br />
+        <strong>Cayenne, Cinnamon, Ginger, St Johns Wort , Milk Thistle, Lecithin</strong><br />
         
     </span>
 							</a></h3>
@@ -166,7 +166,7 @@
 				
 				  <article>
 				    <a href="#" class="image pill tooltip"><img src="images/16.png" alt="" /><span>
-        <strong>The original, the first</strong><br />
+        <strong>$37.75</strong><br />
         
     </span>
 					
@@ -176,7 +176,7 @@
 							<h3><a href="#">Breeze / Calm</a></h3>
 							<h3 class="sm"><a class="tooltips" href="#">Whats in me?
 												<span>
-        <strong>Cayenne Cinnamon Ginger Ginseng Milk Thisle Lecithin</strong><br />
+        <strong>90K Cayenne, Ginger, Milk Thiste, Oregeno Oil, Lecithin</strong><br />
         
     </span>
 							</a>
@@ -189,14 +189,14 @@
 				  <article>
 				    <a href="#" class="image pill tooltip"><img src="images/16.png" alt="" />
 					<span>
-        <strong>The original, the first</strong><br />
+        <strong>$37.75</strong><br />
         
     </span>
 					</a>
 					<header>
 							<h3><a href="#">Zombie</a></h3>
 							<h3 class="sm"><a class="tooltips" href="#">Whats in me?<span>
-        <strong>Cayenne Cinnamon Ginger Ginseng Milk Thisle Lecithin</strong><br />
+        <strong>90K Cayenne, Cinnamon, Ginger, Ginseng, Guarana, Milk Thiste</strong><br />
         
     </span>
 							</a>
@@ -209,7 +209,7 @@
 				  <article>
 				    <a href="#" class="image pill tooltip"><img src="images/16.png" alt="" />
 					<span>
-        <strong>The original, the first</strong><br />
+        <strong>$31.25</strong><br />
         
     </span>
 					</a>
@@ -217,7 +217,7 @@
 							<h3><a href="#">Sunshine</a></h3>
 							<h3 class="sm"><a class="tooltips" href="#">Whats in me?
 							<span>
-        <strong>Cayenne Cinnamon Ginger Ginseng Milk Thisle Lecithin</strong><br />
+        <strong>90 K Cayenne, Cinnamon, Ginger, Milk Thistle, Lecithin</strong><br />
         
     </span>
 							</a>
