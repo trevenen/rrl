@@ -3423,3 +3423,18 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     width: 249px;}
 .sighhh{ color: white;
     margin-top: 21px;}
+.opn input[type="submit"]{background: #df7366 none repeat scroll 0 0!important;
+    border: 0 none!important;
+    border-radius: 0.5em!important;
+    color: #fff!important;
+    cursor: pointer!important;
+    display: inline-block!important;
+    font-weight: 300!important;
+    height: 41px!important;
+    outline: 0 none!important;
+    padding: 3px!important;
+    position: relative!important;
+    text-align: center!important;
+    text-decoration: none!important;
+    transition: background-color 0.35s ease-in-out 0s, color 0.35s ease-in-out 0s, border-bottom-color 0.35s ease-in-out 0s!important;
+    width: 84px!important;}

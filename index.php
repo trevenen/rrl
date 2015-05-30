@@ -24,6 +24,80 @@
 
 		<!-- Carousel -->
 			<section class="carousel">
+<?php
+ 
+//let's say each article costs 15.00 bucks
+
+
+require_once('stripe/init.php');
+require_once ('stripe/lib/Stripe.php') ;
+require_once ('stripe/lib/Util/Set.php') ;
+require_once ('stripe/lib/Util/RequestOptions.php') ;
+require_once ('stripe/lib/Util/Util.php') ;
+require_once ('stripe/lib/Error/Base.php') ;
+require_once ('stripe/lib/Error/InvalidRequest.php') ;
+require_once ('stripe/lib/Object.php') ;
+require_once ('stripe/lib/ApiRequestor.php') ;
+require_once ('stripe/lib/ApiResource.php') ;
+require_once ('stripe/lib/SingletonApiResource.php') ;
+require_once ('stripe/lib/Charge.php') ;
+
+$files = glob('stripe/lib/*.php');
+foreach ($files as $file) {
+    require_once($file);   
+}
+
+$files = glob('stripe/lib/Error/*.php');
+foreach ($files as $file) {
+    require_once($file);   
+}
+
+$files = glob('stripe/lib/Util/*.php');
+foreach ($files as $file) {
+    require_once($file);   
+}
+
+  \Stripe\Stripe::setApiKey("sk_test_d7m70r7GBMBg1HDDYLafeOkZ"); //Replace with your Secret Key
+  $token = $_POST['stripeToken'];
+ try { $charge = \Stripe\Charge::create(array(
+  "amount" => "2000",
+  "currency" => "usd",
+  "source" => $token,
+  "description" => "Charge for Facebook Login code."
+));
+
+	//send the file, this line will be reached if no error was thrown above
+echo "Payment charged successfully";
+ 
+ 
+//you can send the file to this email:
+echo $_POST['$charge->id'];
+}
+//catch the errors in any way you like
+ 
+catch(Stripe_CardError $e) {
+	
+}
+ 
+ 
+catch (Stripe_InvalidRequestError $e) {
+// Invalid parameters were supplied to Stripe's API
+ 
+} catch (Stripe_AuthenticationError $e) {
+// Authentication with Stripe's API failed
+// (maybe you changed API keys recently)
+ 
+} catch (Stripe_ApiConnectionError $e) {
+// Network communication with Stripe failed
+} catch (Stripe_Error $e) {
+ 
+// Display a very generic error to the user, and maybe send
+// yourself an email
+} catch (Exception $e) {
+ 
+// Something else happened, completely unrelated to Stripe
+}
+?>
 				<div class="reel">
 
 				  <article>
@@ -41,7 +115,40 @@
         
     </span>
 							</a></h3>
-							<a class="buttonssss" href="#">Buy</a>
+	<form class="opn" action="index.php" method="post">
+			 
+								<input 
+									type="submit" 
+									value="Buy"
+									data-key="pk_test_EfZEbqvejyNgQvtRl20zSmOZ"
+									data-amount="2000"
+									data-currency="usd"
+									data-name="Red Rock Life"
+									data-description="Stripe payment for $5"
+									data-image="images/17.png"
+								/>
+						 
+								<script src="https://checkout.stripe.com/v2/checkout.js"></script>
+								<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+								<script>
+								$(document).ready(function() {
+									$(':submit').on('click', function(event) {
+										event.preventDefault();
+
+										var $button = $(this),
+											$form = $button.parents('form');
+
+										var opts = $.extend({}, $button.data(), {
+											token: function(result) {
+												$form.append($('<input>').attr({ type: 'hidden', name: 'stripeToken', value: result.id })).submit();
+											}
+										});
+
+										StripeCheckout.open(.opn);
+									});
+								});
+								</script>
+						</form>
 					  </header>
 					</article>
 
@@ -60,7 +167,41 @@
         
     </span>
 							</a></h3>
-							<a class="buttonssss" href="#">Buy</a>
+						<form class="opn" action="index.php" method="post">
+			 
+								<input 
+									type="submit" 
+									value="Buy"
+									data-key="pk_test_EfZEbqvejyNgQvtRl20zSmOZ"
+									data-amount="2000"
+									data-currency="usd"
+									data-name="Red Rock Life"
+									data-description="Stripe payment for $5"
+									data-image="images/17.png"
+								/>
+						 
+								<script src="https://checkout.stripe.com/v2/checkout.js"></script>
+								<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+								<script>
+								$(document).ready(function() {
+									$(':submit').on('click', function(event) {
+										event.preventDefault();
+
+										var $button = $(this),
+											$form = $button.parents('form');
+
+										var opts = $.extend({}, $button.data(), {
+											token: function(result) {
+												$form.append($('<input>').attr({ type: 'hidden', name: 'stripeToken', value: result.id })).submit();
+											}
+										});
+
+										StripeCheckout.open(.opn);
+									});
+								});
+								</script>
+						</form>
+					
 					  </header>
 					</article>
 				
@@ -79,7 +220,44 @@
         
     </span>
 							</a></h3>
-							<a class="buttonssss" href="#">Buy</a>              
+						
+							
+	<form class="opn" action="index.php" method="post">
+			 
+								<input 
+									type="submit" 
+									value="Buy"
+									data-key="pk_test_EfZEbqvejyNgQvtRl20zSmOZ"
+									data-amount="2000"
+									data-currency="usd"
+									data-name="Red Rock Life"
+									data-description="Stripe payment for $5"
+									data-image="images/17.png"
+								/>
+						 
+								<script src="https://checkout.stripe.com/v2/checkout.js"></script>
+								<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+								<script>
+								$(document).ready(function() {
+									$(':submit').on('click', function(event) {
+										event.preventDefault();
+
+										var $button = $(this),
+											$form = $button.parents('form');
+
+										var opts = $.extend({}, $button.data(), {
+											token: function(result) {
+												$form.append($('<input>').attr({ type: 'hidden', name: 'stripeToken', value: result.id })).submit();
+											}
+										});
+
+										StripeCheckout.open(.opn);
+									});
+								});
+								</script>
+						</form>
+
+
                     </header>
 					</article>
 				
@@ -98,7 +276,40 @@
         
     </span>
 							</a></h3>
-							<a class="buttonssss" href="#">Buy</a>
+					<form class="opn" action="index.php" method="post">
+			 
+								<input 
+									type="submit" 
+									value="Buy"
+									data-key="pk_test_EfZEbqvejyNgQvtRl20zSmOZ"
+									data-amount="2000"
+									data-currency="usd"
+									data-name="Red Rock Life"
+									data-description="Stripe payment for $5  "
+									data-image="images/17.png"
+								/>
+						 
+								<script src="https://checkout.stripe.com/v2/checkout.js"></script>
+								<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+								<script>
+								$(document).ready(function() {
+									$(':submit').on('click', function(event) {
+										event.preventDefault();
+
+										var $button = $(this),
+											$form = $button.parents('form');
+
+										var opts = $.extend({}, $button.data(), {
+											token: function(result) {
+												$form.append($('<input>').attr({ type: 'hidden', name: 'stripeToken', value: result.id })).submit();
+											}
+										});
+
+										 StripeCheckout.open(opts);
+									});
+								});
+								</script>
+						</form>
 					  </header>
 					</article>
 				
@@ -120,7 +331,44 @@
 							</a>
 							
 							</h3>
-							<a class="buttonssss" href="#">Buy</a>
+	
+						
+	<form class="opn" action="index.php" method="post">
+			 
+								<input 
+									type="submit" 
+									value="Buy"
+									data-key="pk_test_EfZEbqvejyNgQvtRl20zSmOZ"
+									data-amount="2000"
+									data-currency="usd"
+									data-name="Red Rock Life"
+									data-description="Stripe payment for $5"
+									data-image="images/17.png"
+								/>
+						 
+								<script src="https://checkout.stripe.com/v2/checkout.js"></script>
+								<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+								<script>
+								$(document).ready(function() {
+									$(':submit').on('click', function(event) {
+										event.preventDefault();
+
+										var $button = $(this),
+											$form = $button.parents('form');
+
+										var opts = $.extend({}, $button.data(), {
+											token: function(result) {
+												$form.append($('<input>').attr({ type: 'hidden', name: 'stripeToken', value: result.id })).submit();
+											}
+										});
+
+										StripeCheckout.open(.opn);
+									});
+								});
+								</script>
+						</form>
+
+						
 					  </header>
 					</article>
 
@@ -141,7 +389,43 @@
 							</a>
 
 							</h3>
-							<a class="buttonssss" href="#">Buy</a>
+		
+						
+	<form class="opn" action="index.php" method="post">
+			 
+								<input 
+									type="submit" 
+									value="Buy"
+									data-key="pk_test_EfZEbqvejyNgQvtRl20zSmOZ"
+									data-amount="2000"
+									data-currency="usd"
+									data-name="Red Rock Life"
+									data-description="Stripe payment for $5"
+									data-image="images/17.png"
+								/>
+						 
+								<script src="https://checkout.stripe.com/v2/checkout.js"></script>
+								<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+								<script>
+								$(document).ready(function() {
+									$(':submit').on('click', function(event) {
+										event.preventDefault();
+
+										var $button = $(this),
+											$form = $button.parents('form');
+
+										var opts = $.extend({}, $button.data(), {
+											token: function(result) {
+												$form.append($('<input>').attr({ type: 'hidden', name: 'stripeToken', value: result.id })).submit();
+											}
+										});
+
+										StripeCheckout.open(.opn);
+									});
+								});
+								</script>
+						</form>
+			
 					  </header>
 					</article>
 				
@@ -160,7 +444,43 @@
         
     </span>
 							</a></h3>
-							<a class="buttonssss" href="#">Buy</a>
+							
+	<form class="opn" action="index.php" method="post">
+			 
+								<input 
+									type="submit" 
+									value="Buy"
+									data-key="pk_test_EfZEbqvejyNgQvtRl20zSmOZ"
+									data-amount="2000"
+									data-currency="usd"
+									data-name="Red Rock Life"
+									data-description="Stripe payment for $5"
+									data-image="images/17.png"
+								/>
+						 
+								<script src="https://checkout.stripe.com/v2/checkout.js"></script>
+								<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+								<script>
+								$(document).ready(function() {
+									$(':submit').on('click', function(event) {
+										event.preventDefault();
+
+										var $button = $(this),
+											$form = $button.parents('form');
+
+										var opts = $.extend({}, $button.data(), {
+											token: function(result) {
+												$form.append($('<input>').attr({ type: 'hidden', name: 'stripeToken', value: result.id })).submit();
+											}
+										});
+
+										StripeCheckout.open(.opn);
+									});
+								});
+								</script>
+						</form>
+
+							
 				    </header>
 				  </article>
 				
@@ -182,7 +502,44 @@
 							</a>
 		
 							</h3>
-							<a class="buttonssss" href="#">Buy</a>
+									
+	<form class="opn" action="index.php" method="post">
+			 
+								<input 
+									type="submit" 
+									value="Buy"
+									data-key="pk_test_EfZEbqvejyNgQvtRl20zSmOZ"
+									data-amount="2000"
+									data-currency="usd"
+									data-name="Red Rock Life"
+									data-description="Stripe payment for $5"
+									data-image="images/17.png"
+								/>
+						 
+								<script src="https://checkout.stripe.com/v2/checkout.js"></script>
+								<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+								<script>
+								$(document).ready(function() {
+									$(':submit').on('click', function(event) {
+										event.preventDefault();
+
+										var $button = $(this),
+											$form = $button.parents('form');
+
+										var opts = $.extend({}, $button.data(), {
+											token: function(result) {
+												$form.append($('<input>').attr({ type: 'hidden', name: 'stripeToken', value: result.id })).submit();
+											}
+										});
+
+										StripeCheckout.open(.opn);
+									});
+								});
+								</script>
+						</form>
+						
+
+						
 				    </header>
 				  </article>
 				
@@ -202,7 +559,44 @@
 							</a>
 							
 							</h3>
-							<a class="buttonssss" href="#">Buy</a>
+							
+	<form class="opn" action="index.php" method="post">
+			 
+								<input 
+									type="submit" 
+									value="Buy"
+									data-key="pk_test_EfZEbqvejyNgQvtRl20zSmOZ"
+									data-amount="2000"
+									data-currency="usd"
+									data-name="Red Rock Life"
+									data-description="Stripe payment for $5"
+									data-image="images/17.png"
+								/>
+						 
+								<script src="https://checkout.stripe.com/v2/checkout.js"></script>
+								<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+								<script>
+								$(document).ready(function() {
+									$(':submit').on('click', function(event) {
+										event.preventDefault();
+
+										var $button = $(this),
+											$form = $button.parents('form');
+
+										var opts = $.extend({}, $button.data(), {
+											token: function(result) {
+												$form.append($('<input>').attr({ type: 'hidden', name: 'stripeToken', value: result.id })).submit();
+											}
+										});
+
+										StripeCheckout.open(.opn);
+									});
+								});
+								</script>
+						</form>
+								
+
+							
 					  </header>
 					</article>
 				
@@ -222,7 +616,44 @@
     </span>
 							</a>
 							</h3>
-							<a class="buttonssss" href="#">Buy</a>
+									
+
+									<form class="opn" action="index.php" method="post">
+			 
+								<input 
+									type="submit" 
+									value="Buy"
+									data-key="pk_test_EfZEbqvejyNgQvtRl20zSmOZ"
+									data-amount="2000"
+									data-currency="usd"
+									data-name="Red Rock Life"
+									data-description="Stripe payment for $5"
+									data-image="images/17.png"
+								/>
+						 
+								<script src="https://checkout.stripe.com/v2/checkout.js"></script>
+								<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+								<script>
+								$(document).ready(function() {
+									$(':submit').on('click', function(event) {
+										event.preventDefault();
+
+										var $button = $(this),
+											$form = $button.parents('form');
+
+										var opts = $.extend({}, $button.data(), {
+											token: function(result) {
+												$form.append($('<input>').attr({ type: 'hidden', name: 'stripeToken', value: result.id })).submit();
+											}
+										});
+
+										StripeCheckout.open(.opn);
+									});
+								});
+								</script>
+						</form>
+
+							
 					  </header>
 					</article>
 

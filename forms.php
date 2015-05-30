@@ -1,7 +1,7 @@
 <?php
 
 $EmailFrom = "signupform@redrocklife.com";
-$EmailTo = "kamrulhasanshuvo@outlook.com";
+$EmailTo = "signup@redrocklife.com";
 $Subject = "Sign Up details";
 $Name = Trim(stripslashes($_POST['Name'])); 
 $phone = Trim(stripslashes($_POST['Phone'])); 
@@ -37,9 +37,9 @@ $success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
 
 // redirect to success page 
 if ($success){
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=contactthanks.php\">";
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=index.php\">";
 }
 else{
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=error.htm\">";
+  echo '<p>You answered the anti-spam question incorrectly!</p>';
 }
 ?>
