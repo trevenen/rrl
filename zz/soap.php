@@ -1,6 +1,5 @@
 <!DOCTYPE HTML>
-<html>
-<head>
+<html><head>
 	<?php include 'header.php'
 	?>
 		<?php include 'menu.php'
@@ -12,12 +11,12 @@
 	<section id="banner">
 		<header class="homepage">
                 </br>
-			<h2 class="container special">RedRock Oil Necklaces </h2>
+			<h2 class="container special">RedRock Oil Soaps </h2>
 		</header>
 	  </section>
 
 <!-- Main -->
-<!-- Necklace Product. -->
+<!-- Soaps Product. -->
 <section class="products-list">			
 	<div class="container">
 <!-- Products Row Starts -->
@@ -26,16 +25,16 @@
 			<div class="col-md-3 col-sm-6">
 				<div class="product-col">
 					<div class="image">
-						<img src="images/terracotta-necklaces/fun.jpg" alt="product" class="img-responsive">
+						<img src="images/soap/1.jpg" alt="product" class="img-responsive">
 					</div>
 					<div class="caption">
-						<h4><a href="product.html">Oil Necklace </a></h4>
+						<h4><a href="product.html">Oil Soaps </a></h4>
 						<div class="description">
-							Peace Love Joy.
+							Hand Made Artisian Goat Milk Soap
 						</div>
 						<div class="price">
-							<span class="price-new">$14.50</span> 
-							<span class="price-old">$29.50</span>
+							<span class="price-new">$7.50</span> 
+							<!--<span class="price-old">$15.50</span>-->
 						</div>
 						<div class="cart-button button-group">
 							<button type="button" title="Wishlist" class="btn btn-wishlist">
@@ -57,16 +56,16 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="product-col">
 							<div class="image">
-								<img src="images/terracotta-necklaces/fun.jpg" alt="product" class="img-responsive">
+								<img src="images/soap/2.jpg" alt="product" class="img-responsive">
 							</div>
 							<div class="caption">
-								<h4><a href="product.html">Oil Necklace </a></h4>
+								<h4><a href="product.html">Oil Soaps </a></h4>
 								<div class="description">
-									Peace Love Joy.
+								Hand Made Artisian Goat Milk Soap
 								</div>
 								<div class="price">
 									<span class="price-new">$7.50</span> 
-									
+							<!--<span class="price-old">$15.50</span>-->
 								</div>
 								<div class="cart-button button-group">
 									<button type="button" title="Wishlist" class="btn btn-wishlist">
@@ -88,16 +87,16 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="product-col">
 							<div class="image">
-								<img src="images/terracotta-necklaces/fun.jpg" alt="product" class="img-responsive">
+								<img src="images/soap/6.jpg" alt="product" class="img-responsive">
 							</div>
 							<div class="caption">
-								<h4><a href="product.html">Oil Necklace </a></h4>
+								<h4><a href="product.html">Oil Soaps </a></h4>
 								<div class="description">
-									Peace Love Joy.
+									Hand Made Artisian Goat Milk Soap
 								</div>
 								<div class="price">
-									<span class="price-new">$7.50</span> 
-									
+									<span class="price-new">$4.75</span> 
+							<!--<span class="price-old">$15.50</span>-->
 								</div>
 								<div class="cart-button button-group">
 									<button type="button" title="Wishlist" class="btn btn-wishlist">
@@ -119,16 +118,16 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="product-col">
 							<div class="image">
-								<img src="images/terracotta-necklaces/fun.jpg" alt="product" class="img-responsive">
+								<img src="images/soap/5.jpg" alt="product" class="img-responsive">
 							</div>
 							<div class="caption">
-								<h4><a href="product.html">Oil Necklace </a></h4>
+								<h4><a href="product.html">Oil Soaps </a></h4>
 								<div class="description">
-									Peace Love Joy.
+									Hand Made Artisian Goat Milk Soap
 								</div>
 								<div class="price">
-									<span class="price-new">$7.50</span> 
-									
+									<span class="price-new">$4.75</span> 
+							<!--<span class="price-old">$15.50</span>-->
 								</div>
 								<div class="cart-button button-group">
 									<button type="button" title="Wishlist" class="btn btn-wishlist">
@@ -153,15 +152,16 @@
 <div class="wrapper style2">
         <article id="main" class="container special">
         <header>
-                <h3><a href="#">Pre Made RedRock Essential Oil Necklaces.</a></h3>
-                <p>RedRock-Life.com brings terracotta and essential oils together to provide a stylish and effective personal diffuser. </p>
-                <p>Our Hand Made Terracotta Necklaces are made with the highest quality clay and made by 100% deaf artisians. These natural diffusers are made to take with you, if you can't take your room diffuser with you, then make sure you have a couple of these to ensure the constent body and mind connection that comes with high quality essential oils. Some of our customers have even requested personal designs which we will gladly do! </p>
-                <p>For husbands, teenagers, and other school-aged boys or girls who suffer from ADHD, apply our ADHD Blend, an essential oil blend made especially for ADHD, to the diffuser and let them wear it to school around their neck. </p>
-                <p>Try keeping one under your pillow with Lavender oil for a blissful night of sleep! </p>
+                <h3><a href="#">Pre Made RedRock Essential Oil Soaps.</a></h3>
+                <p>RedRock-Life.com brings Goat Milk and Essential Oils together to provide a a little bit of heaven on earth. </p>
+                <p>Our Hand Made Goat Milk Soaps are made with the highest quality Milk, and Oils. </p>
+		<p>These soaps are made by 100% deaf artisians. </p>
+                <p>If you don't see the soap you want ask us and we will make it for you. </p>
+                <p>If you use this soap your hands won't crack! </p>
         </header>
 <!--
          <footer>
-                <a href="#" class="button">View Necklaces</a>
+                <a href="#" class="button">View Soaps</a>
         </footer>
 -->
         </article>

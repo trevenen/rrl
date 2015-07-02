@@ -1,0 +1,184 @@
+﻿Todays work
+may 24th
+drupal commerce (1hr)
+may 23r
+drupal introduction (1hr)
+
+may 22
+tooltip work (10mins)
+may 19
+sign up last works(30 mins)
+may 16
+
+1).header,.footer and include function (done 1.20hr)
+2)sign up page (1hr)
+
+
+may 15 (total 1:10hrs on odesk)
+1)making all the files to .php done(done 45mins)
+2)sign_up.php page modification (done 25mis)
+May 12
+
+1.Link up sing_up.html in the signup button in pop up.(5 min)
+2.make easy the sign up process.
+3.some copy paste on stripe.html page (5min)
+
+May 11
+1.Stripe researching(3hr)
+
+May 4th.
+ On all Pages:
+    a. On the bottom of all pages add "Updated: May 4th 2015" after the text © RedRock-Life.com. All rights reserved. Design: Opensailsdev.com (done in 25 mins )
+    b. Change prices for necklaces to 7.50 and soap to 4.75 (done 5 mins)
+   
+April 24th. 
+1. Create page about-us.html  (done 15 mins)
+   a. RedRock Life has been around since 2010 in one form or an other, it all started when Mr. Red's wife was feelling sick and tired. Not a normal sick and tired, but throuroughly tired, tired to the core. Well Mr. Red started researching chinese medicens and found out that when peoples bodys are tired they are not in harmony with life, energy, and God. Generally speaking, the standardized applications of Chinese herbs began since the publishing of Shang Han Lun and Jin Gui Yao Lue, The Treatise on Cold Damage Disorders and Miscellaneous Illnesses, collated by Zhang Zhongjing, who is deemed as the founding father of Classic Formulas. This book can date back to the end of the Han dynasty, almost two thousands years ago.
+Unlike western medicine is developed around a basic theory, the method of pattern diagnosis is way much different. Without the help of modern machines, it is virtually impossible for ancients to know the true nature of pathological changes. What they could lay hand on was the visible and touchable symptoms and signs, which more often than not would lead them to the false belief that these superficial phenomena is the pathogenesis of the diseases. But now we already know that they are not
+Since this method is so rough, does it really work? That is the most frequently asked question in terms of herbal healing. Apparently it must to be answered well before obtaining the confidence.
+Picture the harsh condition in the primitive times. Lacking of crops cultivation techniques, they could do nothing but hunting animals or gathering plants to survive. This is such a long-term process of trial and error that can barely imagine by person who is living a modern city life. It was learned the hard way, even costs a lot of deaths to trade for some revelation. There would be a long and flat learning curve, and they might make terrible mistakes to tell which wild fruits, seeds and tuber were edible and curative. However, that wisdom is not born with but acquired.
+After reading many Chinese books and learning and experimenting with different American Herbs, Mr. Red put Cayanne Pepper, Ginger, Ginseng, Milk Thistle, and Lecithin together to create the first and original RedRock Life Capsule. It was beautiful, a mix of these herbs some from his own garden and some from trusted Herbal Suppliers. 
+Slowly Mr and Mrs. Red started sharing theme with each other and would always tell people use more cayanne pepper in your foods, stop eating black pepper completely and switch to cayenne! 
+For the 4 years, Mr and Mrs. Red didn't get sick, they were not as tired, and they just felt better. They saw others who were sick, who were tired, they suggested hey just try some cayanne pepper it will help, but many Americans 
+
+April 23rd. 
+1. Download my changes from Github. 
+2. index.html page work. (done 1hr 10min)
+    a. Get some more herb images (Cayenne, Cinnamon, Ginger, Ginseng, Milk Thistle, Lecithin) and fill in the 	<!-- Photos --> image locations starting on line 570.(done in 20 mins)  
+    b. Ensure page looks good on all devices, take screen shot of each resolution and send it to my email address. (Iphone, Ipad, Computer at different resolutions.)(done  40 min sent by email)
+3. cart.html
+    a. Fix the scrolling between pills. It doesn't look good. Should be a bit bigger. (done )
+    b. Change product title to RedRock Life.(done )
+    c. Change Brand to Name remove Product Code (Don't Delete just comment out.)(done )
+    d. Comment out price in red with underline.(done)
+    e. Commment out Color, and Size.(done) 
+    f. Change Quantity to allow drop down of 10 30 60.(done)
+    g. Make the page look better. Simple is better. Do the changes I have asked, then make a cartv1.html page and try to make it look better. Show me how good you can do. 
+    h. Change Description words starting with Lorem.(done)
+" RedRock Life, the perfect cobination of Cayanne, Cinnamon, Ginger, Ginseng, Milk Thistle, and Lecithin. 
+  Our ingredients are only the highest quality, and after taking 10 you will feel the differnce. Try some today. "  
+    i. Change prices on Related Products. 27.95 for each one and comment out the red price so it does not show. (done)
+    j. Get some more herb images (Cayenne, Cinnamon, Ginger, Ginseng, Milk Thistle, Lecithin) and fill in the 	<!-- Photos --> image like you did with index.html.(done)
+    k. With the related products make the first 2 pills and 1 a necklace, and the last goat milk soap.  (done)
+    l. Change the words simply organic seeds (on any of the files) to, This pill has cayanne as the main ingredient, it also contains cinnamon, milk thistle, and lecithin.(done)
+4. Soap page.
+    a. comment out the red price. 
+    b. Change peace love and joy to Hand Made Artisian Goat Milk Soap. Change the price to 4.75 for small bar and 7.45 for large bar. 
+    c. Get some more herb images (Cayenne, Cinnamon, Ginger, Ginseng, Milk Thistle, Lecithin) and fill in the 	<!-- Photos --> image like you did with index.html.
+5.  a. comment out the red price. 
+    b. Change peace love and joy to Hand Made Artisian Oil Necklace. Change the price to 7.50 for small bar. 
+    c. Get some more herb images (Cayenne, Cinnamon, Ginger, Ginseng, Milk Thistle, Lecithin) and fill in the 	<!-- Photos --> image like you did with index.html.
+
+
+April 20th. 
+1. Edit Index.html page tool tips put what is inside of " " in tooltips. Make sure it looks good. 
+   a. Life Pill image. "The original, the first" 
+   aa. Whats in me.    "Cayenne Cinnamon Ginger Ginseng Milk Thisle Lecithin" (done 25min)
+2. From 18th. #5 remove line 410-417 or the 			
+					<h2>&nbsp;</h2>(done 2 mins)
+3. Create a login/sign in page called signup.html use our theme, however notice these pages, they all have a really good login. http://www.webdam.com/how-to-select-a-DAM/
+or http://www.hbloom.com/ResidentialSubscriptions/ or http://www.velaro.com/resources/proactive-chat-whitepaper/ or http://conversionlab.no/
+Make a couple pages with some examples like these, for example signup-webdam.html all the way through signup-conversion.html(done 1.5 hr (2 pages))
+
+April 18th
+April 18th
+1. Download most recent git hub update. It is the files from April 10th with pop
+up.(done)
+2. Learn how to use git command called checkout. This should help you not have
+issues with git.(done with github for windows application)
+3. Make sure all images on all page have relative paths that none of them have absolute
+paths. 
+4. Edit the contact page where it says "about your project" to "comment or question"(done(2mins)
+5. On index page, move about us up the page below the jumbotron. 
+6. On index page, update product highlight to just products. Then change the
+images to use some of our products. Copy then Remove the information about Ginger
+Cayenne Pepper, and Ginseng Replace it with something about the product images
+you chose. Take the copied info and put it in txt files in a txt folder.(done 20mins)
+7 On index page, make all tool tips show to the right of the image or text
+like when hovering over the Enery "Whats in me?" text. (done 20 mins)
+8. Push to github.
+
+April 6th 
+Skype call - Check off last weeks work. Go through index, cart, shop. product pages.
+Changes to index.html page.
+1. Change Nav section to use bigger font, same font as what is in carousel for capsule names, like Life Energy Fire. 
+2. carousel smaller "Whats in me?" that when clicked or touched opens a tooltip, popover, or something like that.  Should read cayenne, ginger, ginseng, milk thistle, and lecithin. (Somehow you need to fit that in some sort of popup or something that looks good and works. Maybe something like this,http://codepen.io/inital_a/pen/gIvmF/, or https://github.com/twbs/bootstrap/issues/6091 might help you get it to work. 
+3. change buy text to a button. It must look good and be a smaller version of the Continue Reading button. Words in it should be "buy".
+4. Remove Herbs Section from Nav. 
+
+
+April 3 
+done all modification took 20 mins
+
+April 2
+i have created product.html page as your instuction.So will i have to create an another product-tempate page or it is ok with product.html page.
+I have done this yesterday night and i havnt added this hour yet.can i add this for today?It took around one hour.And i am doing the changes in product.html
+Also i will try to add them on git hub and study your tutorial you gave me via mail.
+One question i have that are you happy with my work?Please tell me if something seems wrong to you.
+And please give me another 4 hours work for tomorrow.Because i have done only 4 hours last two days and i will do 2 hours today.
+
+April 3 Tasks
+Product.html page changes/fixes.
+Change the add to cart button. Make it look like the other  buttons on the template, not the current add to cart button.
+Make sure Information box is wide enough for the words .
+Remove the section features section completely  
+
+April 2 Tasks
+Finish old tasks. 
+1 Create a product-template page. 
+1a It should look like the other pages however it should have this look. 
+https://www.mountainroseherbs.com/products/olive-oil-organic-extra-virgin/profile
+The image should be on the left, the price with a drop down and a quantity and the add to cart.
+It should include the information section but do not bring over the facebook pinit or tweet badges. 
+2. Fix the top nav portion of on all pages so they work correctly.
+3. Zip up your current site, email it to me. Also try to get it updated in
+github. If you can't let me know what error you are seeing. 
+4. Start putting hours by the tasks you do in this document for example  task 1  Create a product-template page 40 minutes.
+5. Enjoy your good hard work and know you are doing well. Prepare for April 3rds work by learning more about github comands.
+
+April 1
+All the 2,3,4,5 task are completed.and updated on github.
+I am getting the github very slowly.It seems difficult to me.But i will handle it.I havn't got the "checkout" work.I am reading the manuals.
+Please review the work and give me tomorrows work
+
+April 1st. 
+Learn how to correctly work github. 
+Daily you should do this before you start work.
+In the directory you are workin in you should checkout the files. 
+(I use linux. I can tell you use windows so you need to find out what works for you.) Look here. http://www.proace.com/2010/09/24/everyday-git-workflow/ or here for more info https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
+In command line
+git checkout -b working01
+git 
+
+Move any tasks that were not finished yesterday to the first section. 
+First Section
+1just task 5 wasn't completed yesterday.
+
+March 31st.
+1. Make sure yesterdays changes, edits, are commited to github. Do this first!
+2. Edit template.html page to match the  index.html page. Places that will need changed.
+2a. Head
+2b. Body - nav, banner, Main but not including the carousel.
+3c. Footer  
+3. Commit to the github. 
+4. Edit shop.html
+4a change the about us to a shopping cart page make sure it stays in the bootstrap theme
+ There are the other cart main pages I like. 
+ https://www.mountainroseherbs.com/specials
+ http://www.mojo-themes.com/item/spice-shoppe-bootstrap-shopping-cart/demo/
+ http://www.starwest-botanicals.com/category/bulk-herbs/
+
+March 30th
+First 2 hours - Create Contact us page from Right Sidebar page. Keep right sidebar, do not make changes to it. In the main content create contact us page.  
+http://www.searchenginejournal.com/25-amazing-contact-us-pages/93511/ shows some great contact us pages. Please look at them and design out a good design.
+I like this one the best. http://www.fhoke.com/contact/
+Please make the contact us page similar, not exactly like that.
+I do not want phone number or map parts at all. 
+Leave my header, right sidebar and footer. 
+
+Commit file to github, edit this page and let me you know  what you did
+
+unpaid - learn how to work with github.
+
+
+

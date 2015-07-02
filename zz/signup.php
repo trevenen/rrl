@@ -12,7 +12,7 @@
 		
       </div>
       <!-- Main -->
-
+	 
 
       <div class="wrapper style1">
          <div class="container">
@@ -27,8 +27,23 @@
                               </header>
                               <div class="wpcf7" id="wpcf7-f133-o1" dir="ltr">
                                  <div class="screen-reader-response"></div>
-                       			<form class="form-lists flat white vertical corporate-lead-form" method="POST" action="forms.php" id="" data-lead="Residential">
-				<label class="sighhh"  for="name">Full Name</label>
+                              			<form class="form-lists flat white vertical corporate-lead-form" method="POST" action="forms.php" id="" data-lead="Residential">
+<?php
+
+  
+				
+  if ($_POST['submit'] ) {				 
+        if (mail ($to, $subject, $body, $from)) { 
+	    echo '<p>Your message has been sent!</p>';
+	} else { 
+	    echo '<p>Something went wrong, go back and try again!</p>'; 
+	} 
+    } else if ($_POST['submit'] && $human != '4') {
+	echo '<p>You answered the anti-spam question incorrectly!</p>';
+    
+	}
+?>
+   				<label class="sighhh"  for="name">Full Name</label>
    				<input type="text" name="Name" id="Name" required="required" />
    				<label class="sighhh"  for="phone">Phone</label>
    				<input type="text" name="Phone" id="Phone" required="required" />
