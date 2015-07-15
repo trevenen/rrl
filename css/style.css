@@ -1091,13 +1091,17 @@
 /*********************************************************************************/
 
 	.carousel
-	{
+	{     background: rgba(3, 3, 3, 0.56);
+  
 		position: relative;
 		overflow: hidden;
 		padding: 2em 0 2em 0;
 		margin-bottom: 0;
 	}
-
+.backkk{   background: rgba(0, 0, 0, 0) url("../images/1e.png") no-repeat scroll 0 0 / cover ;
+    height: 362px;}
+	
+	.backkks{background: black!important; margin-top: -28px;}
 		.carousel .forward,
 		.carousel .backward
 		{
@@ -1194,7 +1198,7 @@
 		{
 			display: inline-block;
 			width: 18em;
-			background: #000000;  /* was #fff; trt */
+			background: none;  /* was #fff; trt */
 			text-align: center;
 			padding: 0 1em 3em 1em;
 			margin: 0 2em 0 0;
@@ -2096,7 +2100,14 @@ div.wpcf7 {
 /*********************************************************************************/
 /* Icons                                                                         */
 /*********************************************************************************/
-
+.testi {
+     background: rgba(0, 0, 0, 0) url("../images/1e.png") no-repeat scroll center center / cover ;
+    height: 362px;
+    margin-top: -65px;
+}
+.testi h2{    background: rgba(0, 0, 0, 0) url("../images/1e.png") no-repeat scroll center center / cover ;
+    height: 362px;
+    margin-top: -65px;}
 	.icon {
 		text-decoration: none;
 	}
@@ -2678,10 +2689,11 @@ a.tooltip span
 
 	.carousel
 	{
-		position: relative;
-		overflow: hidden;
-		padding: 2em 0 2em 0;
-		margin-bottom: 0;
+		 background-image: rgba(0, 0, 0, 0) url("http://s14.postimg.org/d51fs6m1t/1354851831377_cache.png") repeat scroll 0 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    padding: 2em 0;
+    position: relative;
 	}
 
 		.carousel .forward,
@@ -2769,7 +2781,7 @@ a.tooltip span
 			}
 
 		.carousel .reel
-		{
+		{  margin-top: -34px;
 			white-space: nowrap;
 			position: relative;
 			-webkit-overflow-scrolling: touch;
@@ -2777,13 +2789,13 @@ a.tooltip span
 		}
 	
 		.carousel article
-		{
+		{margin-top: 26px !important;
 			display: inline-block;
 			width: 18em;
-			background: #000000;  /* was #fff; trt */
+			background:none;  /* was #fff; trt */
 			text-align: center;
 			padding: 0 1em 3em 1em;
-			margin: 0 2em 0 0;
+			margin: 1.5 2em 0 0!important;
 			white-space: normal;
 			opacity: 1.0;
 			-moz-transition: opacity 0.75s ease-in-out;			
