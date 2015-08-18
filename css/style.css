@@ -3459,3 +3459,11 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     text-decoration: none!important;
     transition: background-color 0.35s ease-in-out 0s, color 0.35s ease-in-out 0s, border-bottom-color 0.35s ease-in-out 0s!important;
     width: 84px!important;}
+	
+	.balsuc{}
+.backk{background: rgba(0, 0, 0, 0) url("../images/1e.png") no-repeat scroll 0 0 / cover ;
+    height: 362px;}	
+.carousel .reel {
+    padding: 0px 1.5em;
+    margin-left: 87px!important;
+}

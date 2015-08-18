@@ -25,84 +25,10 @@
 		<!-- Carousel -->
 			<section class="backkkkk">
 			<div class="carousel">
-<?php
- 
-//let's say each article costs 15.00 bucks
 
+			<div class="reel">
 
-require_once('stripe/init.php');
-require_once ('stripe/lib/Stripe.php') ;
-require_once ('stripe/lib/Util/Set.php') ;
-require_once ('stripe/lib/Util/RequestOptions.php') ;
-require_once ('stripe/lib/Util/Util.php') ;
-require_once ('stripe/lib/Error/Base.php') ;
-require_once ('stripe/lib/Error/InvalidRequest.php') ;
-require_once ('stripe/lib/Object.php') ;
-require_once ('stripe/lib/ApiRequestor.php') ;
-require_once ('stripe/lib/ApiResource.php') ;
-require_once ('stripe/lib/SingletonApiResource.php') ;
-require_once ('stripe/lib/Charge.php') ;
-
-$files = glob('stripe/lib/*.php');
-foreach ($files as $file) {
-    require_once($file);   
-}
-
-$files = glob('stripe/lib/Error/*.php');
-foreach ($files as $file) {
-    require_once($file);   
-}
-
-$files = glob('stripe/lib/Util/*.php');
-foreach ($files as $file) {
-    require_once($file);   
-}
-
-  \Stripe\Stripe::setApiKey("sk_test_I4MGG2z032hyx5qLcZO9vtKW"); //Replace with your Secret Key
-  $token = $_POST['stripeToken'];
- try { $charge = \Stripe\Charge::create(array(
-  "amount" => "2000",
-  "currency" => "usd",
-  "source" => $token,
-  "description" => "Charge for Facebook Login code."
-));
-
-	//send the file, this line will be reached if no error was thrown above
-echo "Payment charged successfully";
- 
- 
-//you can send the file to this email:
-echo $_POST['$charge->id'];
-}
-//catch the errors in any way you like
- 
-catch(Stripe_CardError $e) {
-	
-}
- 
- 
-catch (Stripe_InvalidRequestError $e) {
-// Invalid parameters were supplied to Stripe's API
- 
-} catch (Stripe_AuthenticationError $e) {
-// Authentication with Stripe's API failed
-// (maybe you changed API keys recently)
- 
-} catch (Stripe_ApiConnectionError $e) {
-// Network communication with Stripe failed
-} catch (Stripe_Error $e) {
- 
-// Display a very generic error to the user, and maybe send
-// yourself an email
-} catch (Exception $e) {
- 
-// Something else happened, completely unrelated to Stripe
-}
-?>
-				
-				<div class="reel">
-
-				  <article>
+			  <article>
 				    <a href="#"   class="image pill tooltip"><img src="images/16.png" alt="" />
 					<span>
         <strong>$31.25</strong><br />
@@ -117,17 +43,21 @@ catch (Stripe_InvalidRequestError $e) {
         
     </span>
 							</a></h3>
-	<form class="opn" action="index.php" method="post">
+	<form class="opn" action="charge1.php" method="post">
 			 
 								<input 
 									type="submit" 
 									value="Buy"
 									data-key="pk_test_susTNzSGffUsTxg1QEZe9eoK"
-									data-amount="2000"
+									data-amount="3125"
 									data-currency="usd"
 									data-name="Red Rock Life"
-									data-description="Stripe payment for $5"
-									data-image="images/17.png"
+									data-description="Life"
+									data-shipping-address="true"
+									data-billing-address="true"
+									data-email="true"
+									zipCode="true"
+									
 								/>
 						 
 								<script src="https://checkout.stripe.com/v2/checkout.js"></script>
@@ -169,17 +99,21 @@ catch (Stripe_InvalidRequestError $e) {
         
     </span>
 							</a></h3>
-						<form class="opn" action="index.php" method="post">
+						<form class="opn" action="charge.php" method="post">
 			 
 								<input 
 									type="submit" 
 									value="Buy"
 									data-key="pk_test_susTNzSGffUsTxg1QEZe9eoK"
-									data-amount="2000"
+									data-amount="3125"
 									data-currency="usd"
 									data-name="Red Rock Life"
-									data-description="Stripe payment for $5"
-									data-image="images/17.png"
+									data-description="Energy"
+									data-shipping-address="true"
+									data-billing-address="true"
+									data-email="true"
+									zipCode="true"
+									
 								/>
 						 
 								<script src="https://checkout.stripe.com/v2/checkout.js"></script>
@@ -224,17 +158,20 @@ catch (Stripe_InvalidRequestError $e) {
 							</a></h3>
 						
 							
-	<form class="opn" action="index.php" method="post">
+<form class="opn" action="charge2.php" method="post">
 			 
 								<input 
 									type="submit" 
 									value="Buy"
 									data-key="pk_test_susTNzSGffUsTxg1QEZe9eoK"
-									data-amount="2000"
+									data-amount="3125"
 									data-currency="usd"
 									data-name="Red Rock Life"
-									data-description="Stripe payment for $5"
-									data-image="images/17.png"
+									data-description="Fire"
+									data-shipping-address="true"
+									data-billing-address="true"
+									data-email="true"
+									zipCode="true"
 								/>
 						 
 								<script src="https://checkout.stripe.com/v2/checkout.js"></script>
@@ -253,7 +190,7 @@ catch (Stripe_InvalidRequestError $e) {
 											}
 										});
 
-										StripeCheckout.open(.opn);
+										 StripeCheckout.open(opts);
 									});
 								});
 								</script>
@@ -263,7 +200,7 @@ catch (Stripe_InvalidRequestError $e) {
                     </header>
 					</article>
 				
-				  <article>
+				<!--  <article>
 				    <a href="#" class="image pill tooltip"><img src="images/16.png" alt="" />
 					<span>
         <strong>$31.25</strong><br />
@@ -657,7 +594,7 @@ catch (Stripe_InvalidRequestError $e) {
 
 							
 					  </header>
-					</article>
+					</article>-->
 
 				</div>
 			

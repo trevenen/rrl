@@ -38,7 +38,7 @@ foreach ($files as $file) {
   "amount" => "3125",
   "currency" => "usd",
   "source" => $_POST['stripeToken'],
-  "description" => "Charge for Energy."
+  "description" => "Charge for Life."
 ));
 	//send the file, this line will be reached if no error was thrown above
 	print "<meta http-equiv=\"refresh\" content=\"0;URL=success.php\">";
