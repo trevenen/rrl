@@ -1,0 +1,123 @@
+<title>RedRock-Life.com Life Spicy!</title>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/jquery.scrolly.min.js"></script>
+		<script src="js/jquery.onvisible.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="js/hover.js"></script> 
+		  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	
+		<style type="text/css">
+      body,td,th {
+	color: #FFFFFF;
+}
+body {
+	background-color: #000000;
+}
+        </style>
+	<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/bootstrap.min.css" />
+			<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+			<link rel="stylesheet" href="css/style-noscript.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body>
+	<section id="headpart">
+
+  <div class="container">
+  <div class="row">	
+<div class="col-mod-12">
+<div class="mainmenupart">
+ <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    
+    </div>
+
+   
+    <div class="collapse navbar-collapse" >
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Link</a></li>
+     
+      </ul>
+     
+ 
+    </div>
+
+</div>
+
+</div>
+  </div>
+  </div>
+
+
+					  <article>
+				    <a href="#"   class="image pill tooltip"><img src="images/16.png" alt="" />
+					<span>
+        <strong>$31.25</strong><br />
+        
+    </span>
+					</a>				   			    		
+					<header>
+							<h3><a href="#">Life</a></h3>
+							<h3 class="sm"><a  href="#"   class=" tooltips">Whats in me?
+									<span>
+        <strong>Cayenne, Cinnamon, Ginger, Ginseng, Milk Thistle, Lecithin</strong><br />
+        
+    </span>
+							</a></h3>
+	<form class="opn" action="index.php" method="post">
+			 
+								<input 
+									type="submit" 
+									value="Buy"
+									data-key="pk_test_susTNzSGffUsTxg1QEZe9eoK"
+									data-amount="2000"
+									data-currency="usd"
+									data-name="Red Rock Life"
+									data-description="Stripe payment for $5"
+									data-image="images/17.png"
+								/>
+						 
+								<script src="https://checkout.stripe.com/v2/checkout.js"></script>
+								<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+								<script>
+								$(document).ready(function() {
+									$(':submit').on('click', function(event) {
+										event.preventDefault();
+
+										var $button = $(this),
+											$form = $button.parents('form');
+
+										var opts = $.extend({}, $button.data(), {
+											token: function(result) {
+												$form.append($('<input>').attr({ type: 'hidden', name: 'stripeToken', value: result.id })).submit();
+											}
+										});
+
+										StripeCheckout.open(.opn);
+									});
+								});
+								</script>
+						</form>
+					  </header>
+					</article>
+	
+	</section>
+	</body>

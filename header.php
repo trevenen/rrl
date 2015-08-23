@@ -1,4 +1,5 @@
 <title>RedRock-Life.com Life Spicy!</title>
+<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
