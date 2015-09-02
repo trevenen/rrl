@@ -1,7 +1,7 @@
 
 <?php
  
-//let's say each article costs 15.00 bucks
+
  
 try {
 require_once('stripe/init.php');
@@ -38,7 +38,7 @@ foreach ($files as $file) {
   "amount" => "3125",
   "currency" => "usd",
   "source" => $_POST['stripeToken'],
-  "description" => "Charge for Kids"
+  "description" => "Charge for Slim"
 ));
 	//send the file, this line will be reached if no error was thrown above
 	print "<meta http-equiv=\"refresh\" content=\"0;URL=success.php\">";

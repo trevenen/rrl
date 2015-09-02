@@ -12,9 +12,9 @@
 									<li><a href="lecithin.html">Lecithin</a></li>
 								</ul>
 							</li>-->
-							<li><a href="cart.php">Cart</a></li>
-							<li><a href="soap.php">Soap</a></li>
-							<li><a href="necklace.php">Oil Necklace</a></li>
+							<li><a href="#">Cart</a></li>
+							<li><a href="#">Soap</a></li>
+							<li><a href="#">Oil Necklace</a></li>
 							<li><a href="contact-us.php">Contact</a></li>
 
 

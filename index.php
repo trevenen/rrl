@@ -23,7 +23,7 @@
 
 
 		<!-- Carousel -->
-			<section class="backk">
+			<section class="">
 			<div class="carousel">
 
 				
@@ -93,7 +93,7 @@
     </span>
 					  </a>
 					  <header>
-							<h3><a href="#">Energy</a></h3>
+							<h3><a href="#">Kids</a></h3>
 							<h3 class="sm"><a class="tooltips" href="#">Whats in me?
 							<span>
         <strong>Cayenne, Cinnamon, Ginger, Ginseng, Moringa, Milk Thistle, Lecithin</strong><br />
@@ -109,7 +109,7 @@
 									data-amount="3125"
 									data-currency="usd"
 									data-name="Red Rock Life"
-									data-description="Energy"
+									data-description="Kids"
 									data-shipping-address="true"
 									data-billing-address="true"
 									data-email="true"
@@ -150,7 +150,7 @@
     </span>
 					</a>
 					<header>
-                    		<h3><a href="#">Fire</a></h3>
+                    		<h3><a href="#">Energy</a></h3>
 							<h3 class="sm"><a class="tooltips" href="#">Whats in me?
 							<span>
         <strong>90K cayenne, Ginseng, Ginger, 40K Cayenne, Milk Thistle</strong><br />
@@ -191,7 +191,7 @@
 											}
 										});
 
-										 StripeCheckout.open(opts);
+										 StripeCheckout.open(.opn);
 									});
 								});
 								</script>
@@ -201,7 +201,7 @@
                     </header>
 					</article>
 				
-				<!--<article>
+			<article>
 				    <a href="#" class="image pill tooltip"><img src="images/16.png" alt="" />
 					<span>
         <strong>$31.25</strong><br />
@@ -209,24 +209,27 @@
     </span>
 					</a>
 					<header>
-							<h3><a href="#">ZZZ</a></h3>
+							<h3><a href="#">Slim</a></h3>
 							<h3 class="sm"><a class="tooltips" href="#">Whats in me?
 							<span>
         <strong>Cayenne, Cinnamon, Ginger, Valerian , Milk Thistle, Lecithin</strong><br />
         
     </span>
 							</a></h3>
-					<form class="opn" action="index.php" method="post">
+					<form class="opn" action="charge4.php" method="post">
 			 
 								<input 
-									type="submit" 
+										type="submit" 
 									value="Buy"
 									data-key="pk_test_susTNzSGffUsTxg1QEZe9eoK"
-									data-amount="2000"
+									data-amount="3125"
 									data-currency="usd"
 									data-name="Red Rock Life"
-									data-description="Stripe payment for $5  "
-									data-image="images/17.png"
+									data-description="Kids"
+									data-shipping-address="true"
+									data-billing-address="true"
+									data-email="true"
+									zipCode="true"
 								/>
 						 
 								<script src="https://checkout.stripe.com/v2/checkout.js"></script>
@@ -261,7 +264,7 @@
     </span>
 					</a>
 					<header>
-							<h3><a href="#">Smile</a></h3>
+							<h3><a href="#">Clean</a></h3>
 							<h3 class="sm"><a class="tooltips" href="#">Whats in me?
 							<span>
         <strong>Cayenne, St Johns Wort, Mugwort, Milk Thistle, Lecithin</strong><br />
@@ -273,17 +276,20 @@
 							</h3>
 	
 						
-	<form class="opn" action="index.php" method="post">
+	<form class="opn" action="charge5.php" method="post">
 			 
 								<input 
-									type="submit" 
+										type="submit" 
 									value="Buy"
 									data-key="pk_test_susTNzSGffUsTxg1QEZe9eoK"
-									data-amount="2000"
+									data-amount="3125"
 									data-currency="usd"
 									data-name="Red Rock Life"
-									data-description="Stripe payment for $5"
-									data-image="images/17.png"
+									data-description="Kids"
+									data-shipping-address="true"
+									data-billing-address="true"
+									data-email="true"
+									zipCode="true"
 								/>
 						 
 								<script src="https://checkout.stripe.com/v2/checkout.js"></script>
@@ -312,7 +318,7 @@
 					  </header>
 					</article>
 
-				  <article>
+				  <!--<article>
 				    <a href="#" class="image pill tooltip"><img src="images/16.png" alt="" />
 					<span>
         <strong>$31.25</strong><br />
@@ -604,23 +610,7 @@
 			</section>
 			
 		<!-- Main -->
-			<div class="wrapper style2">
 
-				<article id="main" class="container special">
-				  <header>
-                  
-                  
-					
-                    <h2><a href="#">About us</a></h2>
-					  <p>RedRock-Life.com brings high quality organic  herb capsules that have been tested to provide a low dose of vital herbs for daily use. We are planning on offering gourmet spices, loose leaf teas, essential oils, herbal extracts, and natural body care ingredients. Our  selection focuses on certified organic, fair trade, ethically wild harvested, &amp; Kosher certified botanical products.<br>
-					  </p>
-					</header>
-				  <footer>
-					  <a href="#" class="button">Continue Reading</a>
-					</footer>
-				</article>
-
-			</div>
 
 		<!-- Features -->
 			<div class="wrapper style1">
