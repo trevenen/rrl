@@ -82,9 +82,9 @@ $success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
 
 // redirect to success page 
 if ($success){
-  print "<meta http-equiv=\"refresh\" content=\"0;URL=index.php\">";
+  print "<meta http-equiv=\"refresh\" content=\"0;URL=signsuccess.php\">";
 }
 else{
-  echo '<p>You answered the anti-spam question incorrectly!</p>';
+  echo '<p>Fill up the fields!</p>';
 }
 ?>
